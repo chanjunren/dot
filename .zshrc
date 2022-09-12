@@ -14,6 +14,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias g="git"
+alias ll="ls -al"
+
 alias ga="git add ."
 alias gc="gitmoji -c"
+alias gpo="git push"
+alias gf="git fetch"
+alias gco="git checkout"
+alias gnb="git checkout -b"

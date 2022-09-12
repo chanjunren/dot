@@ -4,11 +4,7 @@ setlocal spell spelllang=en_us
 
 set nu 
 
-if !has('gui_running')
-    colorscheme desert
-else
-    colorscheme desert
-endif
+colorscheme desert
 
 let mapleader='\'
 
