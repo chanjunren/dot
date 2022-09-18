@@ -38,8 +38,7 @@ set wildignore+=*/usr/*
 " THINGS TO CONSIDER:
 " :b auto-completes any open buffer
 
-
-" TAG JUMPING
+" TAG JUMPING:
 command! MakeTags !ctags -R .
 
 " NOW WE CAN:
@@ -57,4 +56,24 @@ command! MakeTags !ctags -R .
 " - ^x^f for filenames (works with path **)
 " - ^x^] for tags only
 " - ^n for anything specified by 'complete' option
+
+" FILE BROWSING:
+
+" TWEAKS FOR BROWSING
+let g:netrw_banner=0
+let g:netrw_browse_split=4
+let g:netrw_altv=1
+let g:netrw_liststyle=3
+let g:netrw_list_hide=netrw_gitignore#Hide()
+let g:netrw_list_hide.=',\(^\|\s\s\s)\zs\.\S\+'
+
+" NOW WE CAN:
+" - how is :only :tabonly 
+" - :edit a folder to open a file browser
+" - open in a tab using TAB
+" - <CR>/v/t to open in a h-split/v-split/tab
+" - check |netrw-browse-maps| for more mappings
+
+" SNIPPETS: using a shortcut to generate a snippet of code
+" example: nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
 
