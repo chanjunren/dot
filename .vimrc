@@ -1,7 +1,7 @@
-syntax on
+syntax enable
 
 setlocal spell spelllang=en_us
-
+set nocompatible
 set nu 
 
 colorscheme desert
@@ -22,7 +22,6 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set autoindent
-syntax enable
 set showmatch
 set encoding=utf-8
 set termencoding=utf-8
@@ -30,8 +29,11 @@ set fdm=indent
 
 set cursorline cursorcolumn
 
+
 highlight CursorLine term=bold cterm=bold ctermfg=none ctermbg=none guibg=Grey20 gui=bold
 hi cursorcolumn term=bold cterm=bold ctermfg=none ctermbg=none guibg=Grey20 gui=bold
 
 set guicursor+=a:blinkon0
 set completeopt=longest,menuone 
+
+filetype plugin on
