@@ -1,4 +1,5 @@
 > These are just my bash / vim configurations
+- https://ohmyposh.dev/docs/
 
 Creating Symbolic Link
 
