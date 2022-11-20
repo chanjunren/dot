@@ -15,4 +15,4 @@ alias gpl="git pull origin"
 alias gm="git merge"
 alias gsl="git stash list"
 alias gsp="git stash pop"
-
+alias gss="git stash save"
