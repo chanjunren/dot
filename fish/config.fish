@@ -1,6 +1,6 @@
 if status is-interactive
 	# Commands to run in interactive sessions can go here
-	nvm use latest --silent
+	nvm use 18.15.0 --silent
     
 	# Init oh-my-posh theme
 	eval "$(oh-my-posh init fish --config $(brew --prefix oh-my-posh)/themes/hul10.omp.json)"	
