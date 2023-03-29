@@ -145,6 +145,7 @@ nnoremap <space>mr :action
 nmap <space>fc :action HideAllWindows<CR>
 nmap <space>gb :action Annotate<CR>
 
+highlight Cursor guifg=#8BC34A guibg=#8BC34A
 
 " plugins
 Plug 'tpope/vim-surround'
