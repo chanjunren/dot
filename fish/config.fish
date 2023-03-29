@@ -1,9 +1,9 @@
 if status is-interactive
 	# Commands to run in interactive sessions can go here
-	nvm use 18.15.0 --silent
+	nvm use system --silent
     
 	# Init oh-my-posh theme
-	eval "$(oh-my-posh init fish --config $(brew --prefix oh-my-posh)/themes/hul10.omp.json)"	
+	eval "$(oh-my-posh init fish --config $(brew --prefix oh-my-posh)/themes/bubbles.omp.json)"	
 	
 	# Aliases
 	if [ -f $HOME/.config/fish/alias.fish ]
