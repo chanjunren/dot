@@ -27,7 +27,19 @@ set_keymap("n", "<C-l>", "<C-w>l", opts)
 set_keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 -- Resize with arrows
-set_keymap("n", "<C-Up>", ":resize -2<cr>", opts)
-set_keymap("n", "<C-Down>", ":resize -2<cr>", opts)
-set_keymap("n", "<C-Left>", ":resize -2<cr>", opts)
-set_keymap("n", "<C-Right>", ":resize -2<cr>", opts)
+set_keymap("n", "<Leader><Up>", ":resize -2<cr>", opts)
+set_keymap("n", "<Leader><Down>", ":resize +2<cr>", opts)
+set_keymap("n", "<Leader><Left>", ":vertical resize +2<cr>", opts)
+set_keymap("n", "<Leader><Right>", ":vertical resize -2<cr>", opts)
+
+-- Buffer navigation
+set_keymap("n", "<S-l>", ":bnext<cr>", opts)
+set_keymap("n", "<S-h>", ":bprevious<cr>", opts)
+
+-- Indentation
+set_keymap("v", "<", "<gv", opts)
+set_keymap("v", ">", ">gv", opts)
+
+-- Moving up and down
+set_keymap("x", "J", ":move '>+1<CR>gv-gv", opts)
+set_keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
