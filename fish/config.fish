@@ -3,7 +3,7 @@ if status is-interactive
 	nvm use system --silent
     
 	# Init oh-my-posh theme
-	eval "$(oh-my-posh init fish --config $(brew --prefix oh-my-posh)/themes/bubbles.omp.json)"	
+	eval "$(oh-my-posh init fish --config $(brew --prefix oh-my-posh)/themes/easy-term.omp.json)"
 	
 	# Aliases
 	if [ -f $HOME/.config/fish/alias.fish ]
