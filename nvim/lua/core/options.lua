@@ -17,4 +17,9 @@ o.number = true
 o.relativenumber = true
 o.numberwidth = 2
 o.guifont = "monospace:h17"
-
+o.termguicolors = true
+o.syntax = enable
+o.expandtab = false
+o.showtabline = 2
+o.shiftwidth = 2
+o.tabstop = 2

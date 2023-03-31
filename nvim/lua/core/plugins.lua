@@ -42,6 +42,19 @@ return packer.startup(function(use)
 	use "nvim-lua/popup.nvim" -- Implementation of Popup API from vim in Neovim
 	use "nvim-lua/plenary.nvim" -- Useful lua functions used by a lot of plugins
 
+	-- cmp plugins
+	use 'neovim/nvim-lspconfig'
+	use 'hrsh7th/cmp-nvim-lsp'
+	use 'hrsh7th/cmp-buffer'
+	use 'hrsh7th/cmp-path'
+	use 'hrsh7th/cmp-cmdline'
+	use 'hrsh7th/nvim-cmp'
+	use 'saadparwaiz1/cmp_luasnip'
+
+	-- snippets
+	use "L3MON4D3/LuaSnip"
+	use "rafamadriz/friendly-snippets"
+
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end
