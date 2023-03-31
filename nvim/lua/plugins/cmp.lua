@@ -1,49 +1,49 @@
-local cmp_status_ok, cmp = pcall(require, "cmp")
-
-if not cmp_status_ok then
-	vim.notify("There is something wrong with cmp")
-	return
+local cmp_load_successful, cmp = pcall(require, "cmp")
+if not cmp_load_successful then
+  return
 end
 
-local snip_status_ok, luasnip = pcall(require, "luasnip")
-if not snip_status_ok then
-	vim.notify("There is something wrong with luasnip")
-	return
+local luasnip_load_successful, luasnip = pcall(require, "luasnip")
+if not luasnip_load_successful then
+  return
 end
+
+require("luasnip/loaders/from_vscode").lazy_load()
 
 local check_backspace = function()
-	local col = vim.fn.col + "." - 1
-	return col == 0 or vim.fn.getline("."):sub(col, col): match "%s"
+  local col = vim.fn.col "." - 1
+  return col == 0 or vim.fn.getline("."):sub(col, col):match "%s"
 end
 
--- find more here: https://www.nerdfonts.com/cheat-sheet
+--   פּ ﯟ   some other good icons
 local kind_icons = {
-	Text = "",
-	Method = "m",
-	Function = "",
-	Constructor = "",
-	Field = "",
-	Variable = "",
-	Class = "",
-	Interface = "",
-	Module = "",
-	Property = "",
-	Unit = "",
-	Value = "",
-	Enum = "",
-	Keyword = "",
-	Snippet = "",
-	Color = "",
-	File = "",
-	Reference = "",
-	Folder = "",
-	EnumMember = "",
-	Constant = "",
-	Struct = "",
-	Event = "",
-	Operator = "",
-	TypeParameter = "",
+  Text = "",
+  Method = "m",
+  Function = "",
+  Constructor = "",
+  Field = "",
+  Variable = "",
+  Class = "",
+  Interface = "",
+  Module = "",
+  Property = "",
+  Unit = "",
+  Value = "",
+  Enum = "",
+  Keyword = "",
+  Snippet = "",
+  Color = "",
+  File = "",
+  Reference = "",
+  Folder = "",
+  EnumMember = "",
+  Constant = "",
+  Struct = "",
+  Event = "",
+  Operator = "",
+  TypeParameter = "",
 }
+-- find more here: https://www.nerdfonts.com/cheat-sheet
 
 cmp.setup {
   snippet = {
@@ -98,21 +98,25 @@ cmp.setup {
     fields = { "kind", "abbr", "menu" },
     format = function(entry, vim_item)
       -- Kind icons
-      -- vim_item.kind = string.format("%s", kind_icons[vim_item.kind])
-      vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind], vim_item.kind) -- This concatonates the icons with the name of the item kind
+      vim_item.kind = string.format("%s", kind_icons[vim_item.kind])
+      -- vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind], vim_item.kind) -- This concatonates the icons with the name of the item kind
       vim_item.menu = ({
-        luasnip = "[LuaSnip]",
+				nvm_lsp = "[LSP]",
+				nvm_lua = "[Lua]",
+        luasnip = "[Snippet]",
         buffer = "[Buffer]",
         path = "[Path]",
       })[entry.source.name]
       return vim_item
     end,
   },
-  sources = {
-    { name = "luasnip" },
-    { name = "buffer" },
-    { name = "path" },
-  },
+	sources = {
+		{ name = 'nvim_lua' ,  include_deprecated = true },
+		{ name = "nvim_lsp" },
+		{ name = "luasnip" },
+		{ name = "buffer" },
+		{ name = "path" },
+	},
   confirm_opts = {
     behavior = cmp.ConfirmBehavior.Replace,
     select = false,

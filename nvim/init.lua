@@ -1,5 +1,8 @@
 require "core.options"
 require "core.keymaps"
-require "core.plugins"
 require "core.themes"
-require "core.cmp"
+
+require "plugins"
+require "plugins.cmp"
+require "plugins.mason"
+require "plugins.telescope"
