@@ -14,8 +14,8 @@ vim.g.maplocalleader = ' '
 -- 'c': command_mode
 
 -- Split window
-set_keymap("n", "<leader>j", ":bel split<CR>", opts)
-set_keymap("n", "<leader>l", ":bel vsplit<CR>", opts)
+set_keymap("n", "<leader>J", ":bel split<CR>", opts)
+set_keymap("n", "<leader>L", ":bel vsplit<CR>", opts)
 set_keymap("n", "<leader>w", ":close<CR>", opts)
 
 -- Window navigation 

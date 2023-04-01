@@ -45,7 +45,16 @@ return packer.startup(function(use)
 	-- Miscellaneous
 	use 'rose-pine/neovim'
 
+	-- Telescope (Searching)
   use { 'nvim-telescope/telescope.nvim', version = '*', dependencies = { 'nvim-lua/plenary.nvim' } }
+	use 'nvim-telescope/telescope-media-files.nvim'
+
+	-- Treesitter (Syntax highlighting)
+	use {
+		"nvim-treesitter/nvim-treesitter",
+		run = ":TSUpdate"
+	}
+
 	-- Auto Completions
 	use 'hrsh7th/cmp-nvim-lsp'
 	use 'hrsh7th/cmp-buffer'
@@ -60,7 +69,7 @@ return packer.startup(function(use)
 	use "rafamadriz/friendly-snippets"
 
 	-- LSP
-	use { 
+	use {
 		'neovim/nvim-lspconfig',
 		requires = {
 			-- Automatically install LSPs to stdpath for neovim

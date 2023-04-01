@@ -1,3 +1,5 @@
+require "plugins.packer"
 require "plugins.cmp"
 require "plugins.mason"
 require "plugins.telescope"
+require "plugins.treesitter"
