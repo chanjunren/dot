@@ -24,7 +24,8 @@ set_keymap("n", "<C-j>", "<C-w>j", opts)
 set_keymap("n", "<C-k>", "<C-w>k", opts)
 set_keymap("n", "<C-l>", "<C-w>l", opts)
 
-set_keymap("n", "<leader>e", ":Lex 30<cr>", opts)
+--[[ set_keymap("n", "<leader>e", ":Lex 30<cr>", opts) ]]
+set_keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Resize with arrows
 set_keymap("n", "<Leader><Up>", ":resize -2<cr>", opts)

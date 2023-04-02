@@ -41,6 +41,7 @@ return packer.startup(function(use)
 	use "wbthomason/packer.nvim" -- Packer manages itself	
 	use "nvim-lua/popup.nvim" -- Implementation of Popup API from vim in Neovim
 	use "nvim-lua/plenary.nvim" -- Useful lua functions used by a lot of plugins
+	use "numToStr/Comment.nvim" -- For commenting out stuff
 
 	-- Miscellaneous
 	use 'rose-pine/neovim'
@@ -49,11 +50,19 @@ return packer.startup(function(use)
   use { 'nvim-telescope/telescope.nvim', version = '*', dependencies = { 'nvim-lua/plenary.nvim' } }
 	use 'nvim-telescope/telescope-media-files.nvim'
 
+	-- Nvim-treesitter (Tree structure 
+	use "kyazdani42/nvim-web-devicons"
+	use "kyazdani42/nvim-tree.lua"
+
 	-- Treesitter (Syntax highlighting)
 	use {
 		"nvim-treesitter/nvim-treesitter",
 		run = ":TSUpdate"
 	}
+	use 'JoosepAlviste/nvim-ts-context-commentstring'
+
+	-- Git
+	use "lewis6991/gitsigns.nvim"
 
 	-- Auto Completions
 	use 'hrsh7th/cmp-nvim-lsp'
