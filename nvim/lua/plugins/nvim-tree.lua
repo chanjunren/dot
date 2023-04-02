@@ -53,6 +53,13 @@ nvim_tree.setup {
       error = "",
     },
   },
+	filters = {
+		dotfiles = false,
+		git_clean = false,
+		no_buffer = false,
+		custom = {},
+		exclude = {},
+	},
   view = {
     width = 30,
     side = "left",
