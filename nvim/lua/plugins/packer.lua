@@ -44,7 +44,13 @@ return packer.startup(function(use)
 	use "numToStr/Comment.nvim" -- For commenting out stuff
 
 	-- Miscellaneous
-	use 'rose-pine/neovim'
+	use {
+		"kyazdani42/blue-moon",
+		config = function()
+			vim.opt.termguicolors = true
+			vim.cmd "colorscheme blue-moon"
+		end
+	}
 
 	-- Telescope (Searching)
   use { 'nvim-telescope/telescope.nvim', version = '*', dependencies = { 'nvim-lua/plenary.nvim' } }
