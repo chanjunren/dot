@@ -107,6 +107,10 @@ return packer.startup(function(use)
 			'folke/neodev.nvim',
 		}
 	}
+	use {
+		'nvim-lualine/lualine.nvim',
+		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+	}
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
