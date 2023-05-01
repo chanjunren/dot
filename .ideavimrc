@@ -1,157 +1,112 @@
-" IDEAVim Specific settings
 set visualbell
 set ideajoin
 set idearefactormode=keep
-" :w writes all files
 set ideawrite=all
 set showmode
 set showcmd
-nnoremap [[ :action MethodUp<CR>zz
-nnoremap ]] :action MethodDown<CR>zz
-
-" autocmd 
-" augroup vimrc-incsearch-highlight-undo
-"     autocmd!
-"     autocmd CmdlineEnter /,\? :set hlsearch
-"     autocmd CmdlineLeave /,\? :set nohlsearch
-" augroup END
-
-" Disable automatic comment insertion
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
-
-
-" options
-let mapleader = " "
-
 set relativenumber
 set number
 set clipboard+=unnamedplus
-set clipboard+=ideaput
 set hlsearch
 set incsearch
-set scroll=20 " Scroll X lines using Ctrl-d/Ctrl-u
 set scrolloff=5 " Keep X lines above/below cursor when scrolling
 set iskeyword+=- " Treat dash separated words as a word text object
 
 
+" Disable automatic comment insertion
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
-" keymaps
-" allow single line travel when lines visually wrap
-" nnoremap j gj
-" nnoremap k gk
-" move hightlighted text up/down in different modes
-nnoremap <space>j :m .+1<CR>==
-nnoremap <space>k :m .-2<CR>==
-inoremap <c-j> <esc>:m .+1<CR>==gi
-inoremap <c-k> <esc>:m .-2<CR>==gi
-xmap J <Action>(MoveLineDown)
-xmap K <Action>(MoveLineUp)
+let mapleader = " "
 
-" toggle ignorecase
-nnoremap <F2> :set ignorecase! ignorecase?<cr>
-nnoremap <c-c> <esc>
+" Reloading IDEAVIM config
+nnoremap \e :e ~/.ideavimrc<CR>
+nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
 
-" exit insert mode whenever you type 'jk' or 'kj'
-inoremap kj <esc>
-inoremap jk <esc>
+" Collapses
+nnoremap [[ :action MethodUp<CR>zz
+nnoremap ]] :action MethodDown<CR>zz
+nnoremap zc :action CollapseRegion<CR>
+nnoremap zo :action ExpandRegion<CR>
+nnoremap <leader>zc :action CollapseAllRegions<CR>
+nnoremap <leader>zo :action ExpandAllRegions<CR>
 
-" delete without yanking
+" Delete without yanking
 nnoremap <space>d "_d
 vnoremap <space>d "_d
 nnoremap <space>D "_D
 nnoremap <space>C "_C
 nnoremap <space>c "_c
 nnoremap <space>x "_x
-
-" replace currently selected text with default register without yanking
+" Replace currently selected text with default register without yanking
 vnoremap p "_dP
-" ???
-" nnoremap <space>x "_dx
 
-" wtf?????????????????????????????????????????????????????????????????????
 nnoremap Y y$
 nnoremap n nzzzv
 nnoremap N Nzzzv
-" ???
-nnoremap <space>J mzJ`z
-" break undo sequence using punctuation marks
-" TODO fix bug
-" inoremap , ,<c-g>u
-" inoremap . .<c-g>u
-" inoremap ! !<c-g>u
-" inoremap ? ?<c-g>u
 
-" make vim behave
 " D duplicates highlighted below
 vnoremap D y'>p
-" tab while code selected
 vnoremap < <gv
 vnoremap > >gv
 
-" IDEA SPECIFIC settings (refactored from nvim)
-" splits
+" Splits
 nmap <c-h> <Action>(PrevSplitter)
-" map('n', '<c-j>', '<c-w>j')
-" map('n', '<c-k>', '<c-w>k')
 nmap <c-l> <Action>(NextSplitter)
+nnoremap <leader>L :action SplitVertically<CR>
+nnoremap <leader>J :action SplitHorizontally<CR>
+nnoremap <leader>- :action Unsplit<CR>
+nnoremap <c-m> :action MoveEditorToOppositeTabGroup<CR>
 
-" navigate buffer
+" Buffer navigation
 nmap <tab> <Action>(NextTab)
-" nmap <tab> <Action>(Forward)
 nmap <s-tab> <Action>(PreviousTab)
-" nmap <s-tab> <Action>(Back)
+nmap <space>fc :action HideAllWindows<CR>
 
-" nmap :bd <Action>(CloseContent)
-" nmap :term <Action>(ActivateTerminalToolWindow)
-
-
-
-" diagnostics
+" Diagnostics navigation
 nmap <space>e <Action>(ShowErrorDescription)
-nmap [d <Action>(GotoPreviousError)
-nmap ]d <Action>(GotoNextError)
-" vim.api.nvim_set_keymap('n', '<space>q', '<cmd>lua vim.diagnostic.setloclist()<CR>', opts)
+nmap ge <Action>(GotoPreviousError)
+nmap gE <Action>(GotoNextError)
 
-" Telescope | ff -> find file | fg -> find grep | fb -> find buffer
-" Telescope | dl -> diagnostics list | fa -> find all
+" Code navigation
 nmap <space>ff <Action>(GotoFile)
-" SearchEverywhere
 nmap <space>fg <Action>(FindInPath)
 nmap <space>fb <Action>(RecentFiles)
-" map('n', '<space>fh', "<cmd>lua require('telescope.builtin').help_tags()<cr>", opts)
 nmap <space>fd <Action>(ActivateProblemsViewToolWindow)
 nmap <space>fa <Action>(FindUsages)
-
-" " lsp.lua
-" vim.api.nvim_buf_set_keymap(bufnr, 'n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
 nmap gd <Action>(GotoDeclaration)
 nmap gD <Action>(GotoDeclaration)
-" vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
 nmap gt <Action>(GotoTypeDeclaration)
 nmap gi <Action>(GotoImplementation)
-" vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
-" vim.api.nvim_buf_set_keymap(bufnr, 'n', '<c-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
+
+nmap gp :action RecentProjects<CR>
+
+" Refactorings
+nnoremap <space>r :action Refactorings.QuickListPopupAction<CR>
 nmap <space>R <Action>(RenameElement)
 nmap <space>ca <Action>(ShowIntentionActions)
 nmap <space>fm <Action>(ShowReformatFileDialog)
 vmap <space>fm <Action>(ShowReformatFileDialog)
 nmap <F1> <Action>(ShowReformatFileDialog)
 
-nnoremap <space>r :action Refactorings.QuickListPopupAction<CR>
+" Running files
+nnoremap ,r :action ChooseRunConfiguration<CR>
 nmap <space>tc :action RunCoverage<CR>
 nmap <space>tC gg:action MethodDown<CR>zz:action RunCoverage<CR>
-nnoremap <space>mr :action 
-nmap <space>fc :action HideAllWindows<CR>
+"
+" Git blame
 nmap <space>gb :action Annotate<CR>
 
-highlight Cursor guifg=#8BC34A guibg=#8BC34A
+"Random
+nnoremap <F2> :set ignorecase! ignorecase?<cr>
 
-" plugins
+" Plugins
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'machakann/vim-highlightedyank'
-let g:highlightedyank_highlight_duration = 50 " time in milliseconds
-let g:highlightedyank_highlight_color = "rgba(255, 195, 0, 100)"
+let g:highlightedyank_highlight_duration = 70 " time in milliseconds
+let g:highlightedyank_highlight_color = 'rgba(38, 139, 210, 100)'
+"let g:highlightedyank_highlight_color = 'rgba(255, 187, 0, 100)'
+"let g:highlightedyank_highlight_color = 'rgba(98, 114, 164, 100)'
+
 Plug 'easymotion/vim-easymotion'
 Plug 'dbakker/vim-paragraph-motion'
