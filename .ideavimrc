@@ -23,8 +23,8 @@ nnoremap \e :e ~/.ideavimrc<CR>
 nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
 
 " Collapses
-nnoremap [[ :action MethodUp<CR>zz
-nnoremap ]] :action MethodDown<CR>zz
+nnoremap M :action MethodUp<CR>zz
+nnoremap m :action MethodDown<CR>zz
 nnoremap zc :action CollapseRegion<CR>
 nnoremap zo :action ExpandRegion<CR>
 nnoremap <leader>zc :action CollapseAllRegions<CR>
@@ -92,11 +92,24 @@ nmap <F1> <Action>(ShowReformatFileDialog)
 nnoremap ,r :action ChooseRunConfiguration<CR>
 nmap <space>tc :action RunCoverage<CR>
 nmap <space>tC gg:action MethodDown<CR>zz:action RunCoverage<CR>
-"
+nnoremap ,r :action ContextRun<CR>
+nnoremap ,c :action RunClass<CR>
+nnoremap ,f :action ChooseRunConfiguration<CR>
+nnoremap ,t :action ActivateRunToolWindow<CR>
+nnoremap ,u :action Rerun<CR>
+nnoremap ,f :action RerunFailedTests<CR>
+nnoremap ,b :action ToggleLineBreakpoint<CR>
+nnoremap ,d :action ContextDebug<CR>
+nnoremap ,n :action ActivateDebugToolWindow<CR>
+
+" Terminal
+nnoremap <c-t> :action ActivateTerminalToolWindow<CR>
+nnoremap <leader>t :action Terminal.OpenInTerminal<CR>
+
 " Git blame
 nmap <space>gb :action Annotate<CR>
 
-"Random
+" Random
 nnoremap <F2> :set ignorecase! ignorecase?<cr>
 
 " Plugins
