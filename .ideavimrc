@@ -99,8 +99,11 @@ nnoremap ,t :action ActivateRunToolWindow<CR>
 nnoremap ,u :action Rerun<CR>
 nnoremap ,f :action RerunFailedTests<CR>
 nnoremap ,b :action ToggleLineBreakpoint<CR>
+nnoremap ,B :action GotoBreakpoints<CR>
 nnoremap ,d :action ContextDebug<CR>
 nnoremap ,n :action ActivateDebugToolWindow<CR>
+
+nnoremap <leader>ov :action OverrideMethods<CR>
 
 " Terminal
 nnoremap <c-t> :action ActivateTerminalToolWindow<CR>
