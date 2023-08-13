@@ -19,6 +19,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 let mapleader = " "
 
 " Reloading IDEAVIM config
+" nnoremap \e :e /mnt/c/Users/cjr_1/.ideavimrc<CR>
 nnoremap \e :e ~/.ideavimrc<CR>
 nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
 
@@ -83,12 +84,12 @@ nmap gp :action RecentProjects<CR>
 
 " Refactorings
 nnoremap <space>r :action Refactorings.QuickListPopupAction<CR>
+vnoremap <leader>m :action ExtractMethod<CR>
 nmap <space>R <Action>(RenameElement)
 nmap <space>ca <Action>(ShowIntentionActions)
 nmap <space>fm <Action>(ShowReformatFileDialog)
 vmap <space>fm <Action>(ShowReformatFileDialog)
 nmap <F1> <Action>(ShowReformatFileDialog)
-
 " Running files
 nnoremap ,r :action ChooseRunConfiguration<CR>
 nmap <space>tc :action RunCoverage<CR>
