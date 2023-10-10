@@ -7,6 +7,13 @@
 | Fish       | Shell configs                                  |
 | .ideavimrc | VIM configuration file for IntelliJ VIM plugin |
 
+## Prerequisites
+- Brew
+- Nerd-font 
+  - For displaying oh-my-posh
+  - I'm currently using Jetbrains Mono
+
+
 ## Resources
 - https://github.com/rockerBOO/awesome-neovim
 - chris@machine Neovim series
