@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 ZSHRC_PATH="zsh/.zshrc"
 IDEAVIMRC_PATH=".ideavimrc"
 GITCONFIG_PATH=".gitconfig"
