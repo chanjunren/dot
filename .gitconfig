@@ -1,6 +1,5 @@
 [user]
-	name = chanjunren
-	email = chanjunren@gmail.com
-
-[user "gitlab.okg.com"]
+	name = junren.chan
 	email = junren.chan@okg.com
+[pull]
+	rebase = true

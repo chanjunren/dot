@@ -9,6 +9,7 @@ GITCONFIG_PATH=".gitconfig"
 ln -s $(pwd)/$ZSHRC_PATH ~/
 ln -s $(pwd)/$IDEAVIMRC_PATH ~/.ideavimrc
 ln -s $(pwd)/$GITCONFIG_PATH ~/.gitconfig
+ln -s $(pwd)/lazy_nvim ~/.config/nvim
 
 source ~/.zshrc
 
