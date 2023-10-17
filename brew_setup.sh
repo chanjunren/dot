@@ -7,3 +7,4 @@ NVM_DIR="$HOME/.nvm"
 
 eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/jandedobbeleer.omp.json)"
 
+eval "$(starship init zsh)"

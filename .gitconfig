@@ -3,3 +3,5 @@
 	email = junren.chan@okg.com
 [pull]
 	rebase = true
+[push]
+	autoSetupRemote = true
