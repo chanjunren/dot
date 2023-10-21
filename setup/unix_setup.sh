@@ -1,14 +1,11 @@
 #!/usr/bin/env zsh
 
-ZSHRC_PATH="zsh/.zshrc"
-IDEAVIMRC_PATH=".ideavimrc"
-GITCONFIG_PATH=".gitconfig"
+# Meant for setting up all the relevant dot files for a new machine (WSL / Mac / Linux)
 
-
-# Setup symbolic links
-ln -s $(pwd)/$ZSHRC_PATH ~/
-ln -s $(pwd)/$IDEAVIMRC_PATH ~/.ideavimrc
-ln -s $(pwd)/$GITCONFIG_PATH ~/.gitconfig
+# Symbolic links
+ln -s $(pwd)/zsh/.zshrc ~/$HOME/.config
+ln -s $(pwd)/ideavim/.ideavimrc ~/.ideavimrc
+ln -s $(pwd)/git/.gitconfig ~/.gitconfig
 ln -s $(pwd)/lazy_nvim ~/.config/nvim
 
 source ~/.zshrc

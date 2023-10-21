@@ -50,7 +50,6 @@ pcre2
 pixman
 redis
 ripgrep
-starship
 tree
 tree-sitter
 unibilium

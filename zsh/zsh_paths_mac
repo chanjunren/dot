@@ -1,0 +1,18 @@
+BREW_HOME=/opt/homebrew/bin
+PATH=$BREW_HOME:$PATH
+
+JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
+export JAVA_HOME CLASSPATH
+
+M2_HOME=/usr/local/apache-maven/apache-maven-3.9.5
+M2=$M2_HOME/bin
+PATH=$M2:$PATH
+
+NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+PATH=$NVM_DIR:$PATH
+export PATH
+
+echo "MAC Paths setup"
