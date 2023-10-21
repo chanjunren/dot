@@ -1,12 +1,14 @@
 #!/usr/bin/env zsh
 
+# TODO: Make this script idempotent
 # Meant for setting up all the relevant dot files for a new machine (WSL / Mac / Linux)
+DOT_FILES_HOME=~/dot_files
 
 # Symbolic links
-ln -s $(pwd)/zsh/.zshrc ~/$HOME/.config
-ln -s $(pwd)/ideavim/.ideavimrc ~/.ideavimrc
-ln -s $(pwd)/git/.gitconfig ~/.gitconfig
-ln -s $(pwd)/lazy_nvim ~/.config/nvim
+ln -s ${DOT_FILES_HOME}/zsh/.zshrc ~/$HOME
+ln -s ${DOT_FILES_HOME}/ideavim/.ideavimrc ~/.ideavimrc
+ln -s ${DOT_FILES_HOME}/git/.gitconfig ~/.gitconfig
+ln -s ${DOT_FILES_HOME}/lazy_nvim ~/.config/nvim
 
 source ~/.zshrc
 
@@ -15,8 +17,8 @@ if ! command -v brew &> /dev/null; then
     exit 1
 fi
 
-xargs brew install < ./brew-packages.txt
+#xargs brew install < ./brew-packages.txt
 
 echo "DOT_FILES initialized"
 
-source ./brew_setup.sh
+source ${DOT_FILES_HOME}/brew/setup

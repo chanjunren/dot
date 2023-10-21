@@ -8,5 +8,3 @@ PATH=$NVM_DIR:$PATH
 
 # Finalize PATH
 export PATH
-
-echo "WSL Paths initialized"
