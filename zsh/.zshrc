@@ -4,6 +4,7 @@ plug "zsh-users/zsh-autosuggestions"
 plug "zap-zsh/supercharge"
 plug "zap-zsh/zap-prompt"
 plug "zsh-users/zsh-syntax-highlighting"
+plug "zap-zsh/vim"
 
 # Load and initialise completion system
 autoload -Uz compinit
