@@ -1,4 +1,7 @@
+# Unix
 alias ll="ls -al"
+
+# Git aliases
 alias g="git"
 alias gl="git log"
 alias gb="git branch"
@@ -15,5 +18,8 @@ alias gm="git merge"
 alias gsl="git stash list"
 alias gsp="git stash pop"
 alias gss="git stash save"
-alias gsd="git stash delete"
+alias gsd="git stash drop"
 alias grh="git reset --hard"
+
+# Maven 
+alias mci="mvn clean install -DskipTests"
