@@ -19,3 +19,7 @@
 - chris@machine Neovim series
 - Smart friends (https://github.com/evantancy)
 - https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_server_configuration
+
+```
+New-Item -Path ~\dot_files -ItemType SymbolicLink -Value .\dot_files\
+```

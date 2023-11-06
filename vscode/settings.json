@@ -1,0 +1,140 @@
+{
+  "workbench.colorTheme": "Tokyo Night",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffb472",
+    "terminalCursor.foreground": "#ffb472"
+  },
+  "background.fullscreen": {
+    "images": ["file:///Users/chanjunren/dot_files/assets/coding_vibies.jpg"],
+    "opacity": 0.9,
+    "size": "cover",
+    "position": "center"
+  },
+  "vim.leader": "<space>",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(160, 196, 157, 0.3)",
+  "vim.highlightedyank.duration": 400,
+  "vim.hlsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<D-S-left>"],
+      "after": "workbench.action.splitEditorLeft"
+    },
+    {
+      "before": ["leader", "g"],
+      "commands": ["workbench.files.action.showActiveFileInExplorer"]
+    },
+    {
+      "before": ["leader", "L"],
+      "commands": [
+        {
+          "command": "extension.multiCommand.execute",
+          "args": {
+            "sequence": [
+              "workbench.action.splitEditorRight",
+              "workbench.action.focusPreviousGroup",
+              "workbench.action.closeActiveEditor",
+              "workbench.action.focusNextGroup"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "before": ["leader", "J"],
+      "commands": [
+        {
+          "command": "extension.multiCommand.execute",
+          "args": {
+            "sequence": [
+              "workbench.action.splitEditorDown",
+              "workbench.action.focusPreviousGroup",
+              "workbench.action.closeActiveEditor",
+              "workbench.action.focusNextGroup"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "before": ["<c-r>"],
+      "commands": ["redo"]
+    },
+    {
+      "before": ["leader", "e"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["leader", "r"],
+      "commands": ["vscode-spring-boot.rewrite.list.refactorings"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "d"],
+      "commands": ["editor.action.goToDeclaration"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["W"],
+      "after": ["0", "w"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["leader", "f", "t"],
+      "commands": ["markdownTablePrettify.prettifyTables"]
+    }
+  ],
+
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "editor.lineNumbers": "relative",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "settingsSync.ignoredExtensions": ["sallar.vscode-duotone-dark"],
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "security.allowedUNCHosts": [
+    "wsl$"
+  ],
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": { 
+    "source.organizeImports": true,
+    "source.fixAll": true
+   },
+}

@@ -23,3 +23,5 @@ alias grh="git reset --hard"
 
 # Maven 
 alias mci="mvn clean install -DskipTests"
+
+alias lg="lazygit"

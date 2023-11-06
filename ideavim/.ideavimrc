@@ -114,6 +114,7 @@ nnoremap <leader>t :action Terminal.OpenInTerminal<CR>
 nmap <space>b :action Annotate<CR>
 
 " Random
+nnoremap W 0w
 nnoremap <F2> :set ignorecase! ignorecase?<cr>
 
 " Plugins
