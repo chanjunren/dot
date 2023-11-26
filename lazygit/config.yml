@@ -3,5 +3,6 @@ customCommands:
     command: 'gitmoji -c'
     context: 'files'
     description: 'Gitmoji Commit'
+    subprocess: true
 git:
   parseEmoji: true
