@@ -1,7 +1,7 @@
-# Unix
+# general
 alias ll="ls -al"
 
-# Git aliases
+# git
 alias g="git"
 alias gl="git log"
 alias gb="git branch"
@@ -21,7 +21,11 @@ alias gss="git stash save"
 alias gsd="git stash drop"
 alias grh="git reset --hard"
 
-# Maven 
+# maven
 alias mci="mvn clean install -DskipTests"
+alias mcc="mvn clean compile -DskipTests"
+alias mep="mvn help:effective-pom"
+alias mdt="mvn dependency:tree"
 
+# lazygit
 alias lg="lazygit"

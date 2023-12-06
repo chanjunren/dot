@@ -1,7 +1,7 @@
 BREW_HOME=/opt/homebrew/bin
 PATH=$BREW_HOME:$PATH
 
-JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 export JAVA_HOME CLASSPATH
 
