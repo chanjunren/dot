@@ -9,6 +9,7 @@ ln -s ${DOT_FILES_HOME}/zsh/.zshrc $HOME
 ln -s ${DOT_FILES_HOME}/ideavim/.ideavimrc ~/.ideavimrc
 ln -s ${DOT_FILES_HOME}/git/.gitconfig ~/.gitconfig
 ln -s ${DOT_FILES_HOME}/lazy_nvim ~/.config/nvim
+ln -s ${DOT_FILES_HOME}/ssh/config ~/.ssh/config
 
 
 if ! command -v brew &> /dev/null; then

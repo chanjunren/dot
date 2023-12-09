@@ -7,6 +7,25 @@
 | Fish       | Shell configs                                  |
 | .ideavimrc | VIM configuration file for IntelliJ VIM plugin |
 
+## Setup
+- Add git credentials in ssh
+
+## Windows
+- Install WSL
+- Install ZSH
+
+## Commands dump
+```
+# Set zsh as default shell
+chsh -s $(which zsh)
+
+# Installing
+brew bundle --file=~/dot_files/brew/Brewfile
+
+# Exporting brew packages
+brew bundle dump
+```
+
 ## Prerequisites
 - Brew
 - Nerd-font 
