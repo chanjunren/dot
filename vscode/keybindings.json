@@ -129,5 +129,19 @@
     "key": "z c",
     "command": "list.collapseAll",
     "when": "listFocus && !inputFocus"
-  }
+  },
+  {
+    "key": "cmd+r",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "alt+r",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  { "key": "shift+cmd+r", "command": "workbench.action.replaceInFiles" },
+  { "key": "shift+alt+r", "command": "workbench.action.replaceInFiles" },
+  { "key": "cmd+r",                 "command": "renameFile",
+                                     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus" }
 ]
