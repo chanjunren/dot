@@ -1,12 +1,12 @@
 {
-  "workbench.colorTheme": "Tokyo Night",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "workbench.colorTheme": "Tokyo Night Light",
+  "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font Mono Regular",
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#ffb472",
-    "terminalCursor.foreground": "#ffb472"
+    "editorCursor.foreground": "#000000",
+    "terminalCursor.foreground": "#000000"
   },
   "background.fullscreen": {
-    "images": ["file:///Users/chanjunren/dot_files/assets/coding_vibies.jpg"],
+    "images": ["file:///C:/Users/cjr_1/dot_files/assets/baishu.jpeg"],
     "opacity": 0.9,
     "size": "cover",
     "position": "center"
@@ -125,16 +125,32 @@
     },
     "Ubuntu (WSL)": {
       "path": "C:\\Windows\\System32\\wsl.exe",
-      "args": ["-d", "Ubuntu"]
+      "args": [
+        "-d",
+        "Ubuntu"
+      ]
+    },
+    "Ubuntu-22.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu-22.04"
+      ]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
   "security.allowedUNCHosts": [
     "wsl$"
   ],
   "eslint.format.enable": true,
-  "editor.codeActionsOnSave": { 
-    "source.organizeImports": true,
-    "source.fixAll": true
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
   },
+  "settingsSync.ignoredSettings": [
+    "terminal.external.windowsExec"
+  ],
+  "debug.console.fontFamily": "MesloLGLDZ Nerd Font Mono Regular",
+  "editor.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
 }

@@ -1,4 +1,4 @@
-![Mah bootifoo terminal](resources/banner.png)
+![Mah bootifoo terminal](assets/banner.png)
 
 | Module     | Description                                    |
 |------------|------------------------------------------------|
