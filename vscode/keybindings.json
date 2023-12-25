@@ -69,7 +69,7 @@
   },
   {
     "key": "alt+1",
-    "command": "workbench.view.explorer"
+    "command": "workbench.action.toggleSidebarVisibility"
   },
   {
     "key": "ctrl+w",
@@ -142,6 +142,19 @@
   },
   { "key": "shift+cmd+r", "command": "workbench.action.replaceInFiles" },
   { "key": "shift+alt+r", "command": "workbench.action.replaceInFiles" },
-  { "key": "cmd+r",                 "command": "renameFile",
-                                     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus" }
+  {
+    "key": "cmd+r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+  }
 ]

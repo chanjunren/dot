@@ -156,4 +156,5 @@
   },
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
 }
