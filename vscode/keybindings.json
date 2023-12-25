@@ -87,7 +87,7 @@
   },
   {
     "key": "backspace",
-    "when": "filesExplorerFocus",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus",
     "command": "deleteFile"
   },
   {

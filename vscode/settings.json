@@ -1,6 +1,5 @@
 {
-  "workbench.colorTheme": "Tokyo Night Light",
-  "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font Mono Regular",
+  "workbench.colorTheme": "GitHub Light",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#000000",
     "terminalCursor.foreground": "#000000"
@@ -69,7 +68,7 @@
     },
     {
       "before": ["leader", "r"],
-      "commands": ["vscode-spring-boot.rewrite.list.refactorings"]
+      "commands": ["editor.action.rename"]
     },
     {
       "before": ["g", "i"],
@@ -86,6 +85,10 @@
     {
       "before": ["W"],
       "after": ["0", "w"]
+    },
+    {
+      "before": ["leader", "s", "f"],
+      "commands": ["workbench.action.quickOpen"]
     }
   ],
   "vim.visualModeKeyBindings": [
@@ -130,15 +133,8 @@
         "Ubuntu"
       ]
     },
-    "Ubuntu-22.04 (WSL)": {
-      "path": "C:\\WINDOWS\\System32\\wsl.exe",
-      "args": [
-        "-d",
-        "Ubuntu-22.04"
-      ]
-    }
   },
-  "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
   "security.allowedUNCHosts": [
     "wsl$"
   ],
@@ -153,4 +149,11 @@
   "debug.console.fontFamily": "MesloLGLDZ Nerd Font Mono Regular",
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono Regular",
+  "window.zoomLevel": 1,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
 }
