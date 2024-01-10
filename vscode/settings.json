@@ -1,12 +1,13 @@
 {
   "workbench.colorTheme": "GitHub Light",
+  "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font Mono Regular",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#000000",
     "terminalCursor.foreground": "#000000"
   },
   "background.fullscreen": {
     "images": ["file:///C:/Users/cjr_1/dot_files/assets/baishu.jpeg"],
-    "opacity": 0.9,
+    "opacity": 0.83,
     "size": "cover",
     "position": "center"
   },
@@ -57,10 +58,6 @@
           }
         }
       ]
-    },
-    {
-      "before": ["<c-r>"],
-      "commands": ["redo"]
     },
     {
       "before": ["leader", "e"],
