@@ -154,4 +154,13 @@
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.accessibilitySupport": "off",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.iconClickBehavior": "focus",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "window.commandCenter": false,
+  "window.zoomLevel": 1,
+  "workbench.layoutControl.enabled": false,
 }
