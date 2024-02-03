@@ -162,5 +162,13 @@
     "key": "cmd+enter",
     "command": "editor.action.quickFix",
     "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+-",
+    "command": "workbench.files.action.collapseExplorerFolders",
+  },
+  {
+    "key": "alt+-",
+    "command": "workbench.files.action.collapseExplorerFolders",
   }
 ]
