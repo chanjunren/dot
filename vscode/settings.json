@@ -1,12 +1,13 @@
 {
   "workbench.colorTheme": "GitHub Light",
-  "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font Mono Regular",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#000000",
     "terminalCursor.foreground": "#000000"
   },
   "background.fullscreen": {
-    "images": ["file:///C:/Users/cjr_1/dot_files/assets/baishu.jpeg"],
+    "images": [
+      "file:///C:/Users/cjr_1/dot_files/assets/baishu.jpeg"
+    ],
     "opacity": 0.83,
     "size": "cover",
     "position": "center"
@@ -20,15 +21,25 @@
   "vim.useCtrlKeys": true,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<D-S-left>"],
+      "before": [
+        "<D-S-left>"
+      ],
       "after": "workbench.action.splitEditorLeft"
     },
     {
-      "before": ["leader", "g"],
-      "commands": ["workbench.files.action.showActiveFileInExplorer"]
+      "before": [
+        "leader",
+        "g"
+      ],
+      "commands": [
+        "workbench.files.action.showActiveFileInExplorer"
+      ]
     },
     {
-      "before": ["leader", "L"],
+      "before": [
+        "leader",
+        "L"
+      ],
       "commands": [
         {
           "command": "extension.multiCommand.execute",
@@ -44,7 +55,10 @@
       ]
     },
     {
-      "before": ["leader", "J"],
+      "before": [
+        "leader",
+        "J"
+      ],
       "commands": [
         {
           "command": "extension.multiCommand.execute",
@@ -60,41 +74,82 @@
       ]
     },
     {
-      "before": ["leader", "e"],
-      "commands": ["editor.action.showHover"]
+      "before": [
+        "leader",
+        "e"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
     },
     {
-      "before": ["leader", "r"],
-      "commands": ["editor.action.rename"]
+      "before": [
+        "leader",
+        "r"
+      ],
+      "commands": [
+        "editor.action.rename"
+      ]
     },
     {
-      "before": ["g", "i"],
-      "commands": ["editor.action.goToImplementation"]
+      "before": [
+        "g",
+        "i"
+      ],
+      "commands": [
+        "editor.action.goToImplementation"
+      ]
     },
     {
-      "before": ["g", "d"],
-      "commands": ["editor.action.goToDeclaration"]
+      "before": [
+        "g",
+        "d"
+      ],
+      "commands": [
+        "editor.action.goToDeclaration"
+      ]
     },
     {
-      "before": ["g", "r"],
-      "commands": ["editor.action.goToReferences"]
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.goToReferences"
+      ]
     },
     {
-      "before": ["W"],
-      "after": ["0", "w"]
+      "before": [
+        "W"
+      ],
+      "after": [
+        "0",
+        "w"
+      ]
     },
     {
-      "before": ["leader", "s", "f"],
-      "commands": ["workbench.action.quickOpen"]
+      "before": [
+        "leader",
+        "s",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
     }
   ],
   "vim.visualModeKeyBindings": [
     {
-      "before": ["leader", "f", "t"],
-      "commands": ["markdownTablePrettify.prettifyTables"]
+      "before": [
+        "leader",
+        "f",
+        "t"
+      ],
+      "commands": [
+        "markdownTablePrettify.prettifyTables"
+      ]
     }
   ],
-
   "vim.handleKeys": {
     "<C-a>": false,
     "<C-f>": false
@@ -106,7 +161,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "settingsSync.ignoredExtensions": ["sallar.vscode-duotone-dark"],
+  "settingsSync.ignoredExtensions": [
+    "sallar.vscode-duotone-dark"
+  ],
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
@@ -129,7 +186,7 @@
         "-d",
         "Ubuntu"
       ]
-    },
+    }
   },
   "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
   "security.allowedUNCHosts": [
@@ -143,10 +200,10 @@
   "settingsSync.ignoredSettings": [
     "terminal.external.windowsExec"
   ],
-  "debug.console.fontFamily": "MesloLGLDZ Nerd Font Mono Regular",
-  "editor.fontSize": 12,
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono Regular",
+  "debug.console.fontFamily": "UbuntuMono Nerd Font Regular",
+  "editor.fontSize": 13,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Regular",
   "window.zoomLevel": 1,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -161,6 +218,8 @@
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
   "window.commandCenter": false,
-  "window.zoomLevel": 1,
   "workbench.layoutControl.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications",
+  "window.menuBarVisibility": "compact"
 }
