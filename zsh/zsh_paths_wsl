@@ -6,5 +6,7 @@ NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 PATH=$NVM_DIR:$PATH
 
+PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
+
 # Finalize PATH
 export PATH

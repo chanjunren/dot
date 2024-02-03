@@ -24,3 +24,6 @@ compinit
 source ~/dot_files/brew/setup
 source ~/dot_files/zsh/zsh_aliases
 
+if [ -z "$TMUX" ]; then
+  exec tmux
+fi

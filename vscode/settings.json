@@ -189,10 +189,6 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-  "security.allowedUNCHosts": [
-    "wsl$"
-  ],
-  "eslint.format.enable": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit",
     "source.fixAll": "explicit"
@@ -202,7 +198,7 @@
   ],
   "debug.console.fontFamily": "UbuntuMono Nerd Font Regular",
   "editor.fontSize": 13,
-  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Regular",
   "window.zoomLevel": 1,
   "[javascript]": {

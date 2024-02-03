@@ -1,0 +1,31 @@
+working_directory = "C:/Users/cjr_1"
+
+import = [
+  # uncomment the flavour you want below:
+  "~/dot_files/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+
+  # "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[shell]
+program = "wsl.exe"
+args = ["-e", "/bin/zsh"]
+
+[window]
+decorations = "none"
+opacity = 0.96
+decorations_theme_variant = "Light"
+
+
+[window.padding]
+x = 10
+y = 10
+
+[font]
+size = 17
+
+[font.normal]
+family = "UbuntuMono Nerd Font"
+
