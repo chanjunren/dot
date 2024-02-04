@@ -18,6 +18,10 @@ brew bundle --file=~/dot_files/brew/Brewfile
 
 # Exporting brew packages
 brew bundle dump
+
+# Removing incorrectly generated symlinks 😰
+find ~ -maxdepth 1 -lname 'dot_files/*' -exec echo rm {} \;
+find ~ -maxdepth 1 -lname 'dot_files/*' -exec rm {} \;
 ```
 
 ### Windows (Powershell)

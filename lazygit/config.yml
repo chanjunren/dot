@@ -28,4 +28,4 @@ gui:
     defaultFgColor:
       - '#4c4f69'
     searchingActiveBorderColor:
-      - '#df8e1d'
+      - '#df8e1d#'

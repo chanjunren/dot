@@ -151,7 +151,7 @@
     }
   ],
   "vim.handleKeys": {
-    "<C-a>": false,
+    "<C-a>": false,n
     "<C-f>": false
   },
   "extensions.experimental.affinity": {
@@ -165,21 +165,6 @@
     "sallar.vscode-duotone-dark"
   ],
   "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell"
-    },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
-    },
-    "Git Bash": {
-      "source": "Git Bash"
-    },
     "Ubuntu (WSL)": {
       "path": "C:\\Windows\\System32\\wsl.exe",
       "args": [
@@ -198,7 +183,7 @@
   ],
   "debug.console.fontFamily": "UbuntuMono Nerd Font Regular",
   "editor.fontSize": 13,
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 13,
   "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Regular",
   "window.zoomLevel": 1,
   "[javascript]": {
@@ -216,6 +201,5 @@
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "modifications",
   "window.menuBarVisibility": "compact"
 }
