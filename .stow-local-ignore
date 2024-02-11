@@ -1,0 +1,6 @@
+^/assets
+^/archived
+^/setup
+
+\.git
+\.gitignore

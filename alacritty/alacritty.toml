@@ -16,8 +16,6 @@ args = ["-e", "/bin/zsh"]
 [window]
 decorations = "none"
 opacity = 0.96
-decorations_theme_variant = "Light"
-
 
 [window.padding]
 x = 10
@@ -27,5 +25,5 @@ y = 10
 size = 13
 
 [font.normal]
-family = "JetBrainsMono Nerd font Mono"
+family = "JetBrainsMono Nerd Font Mono"
 

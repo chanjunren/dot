@@ -181,10 +181,10 @@
   "settingsSync.ignoredSettings": [
     "terminal.external.windowsExec"
   ],
-  "debug.console.fontFamily": "UbuntuMono Nerd Font Regular",
-  "editor.fontSize": 13,
-  "terminal.integrated.fontSize": 13,
-  "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Regular",
+  "debug.console.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
   "window.zoomLevel": 1,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
