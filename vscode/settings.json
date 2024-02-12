@@ -5,10 +5,8 @@
     "terminalCursor.foreground": "#000000"
   },
   "background.fullscreen": {
-    "images": [
-      "file:///C:/Users/cjr_1/dot_files/assets/baishu.jpeg"
-    ],
-    "opacity": 0.83,
+    "images": ["file:///Users/chanjunren/dot_files/assets/baishu.jpeg"],
+    "opacity": 0.9,
     "size": "cover",
     "position": "center"
   },
@@ -21,25 +19,15 @@
   "vim.useCtrlKeys": true,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "<D-S-left>"
-      ],
+      "before": ["<D-S-left>"],
       "after": "workbench.action.splitEditorLeft"
     },
     {
-      "before": [
-        "leader",
-        "g"
-      ],
-      "commands": [
-        "workbench.files.action.showActiveFileInExplorer"
-      ]
+      "before": ["leader", "g"],
+      "commands": ["workbench.files.action.showActiveFileInExplorer"]
     },
     {
-      "before": [
-        "leader",
-        "L"
-      ],
+      "before": ["leader", "L"],
       "commands": [
         {
           "command": "extension.multiCommand.execute",
@@ -55,10 +43,7 @@
       ]
     },
     {
-      "before": [
-        "leader",
-        "J"
-      ],
+      "before": ["leader", "J"],
       "commands": [
         {
           "command": "extension.multiCommand.execute",
@@ -74,84 +59,42 @@
       ]
     },
     {
-      "before": [
-        "leader",
-        "e"
-      ],
-      "commands": [
-        "editor.action.showHover"
-      ]
+      "before": ["leader", "e"],
+      "commands": ["editor.action.showHover"]
     },
     {
-      "before": [
-        "leader",
-        "r"
-      ],
-      "commands": [
-        "editor.action.rename"
-      ]
+      "before": ["leader", "r"],
+      "commands": ["editor.action.rename"]
     },
     {
-      "before": [
-        "g",
-        "i"
-      ],
-      "commands": [
-        "editor.action.goToImplementation"
-      ]
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
     },
     {
-      "before": [
-        "g",
-        "d"
-      ],
-      "commands": [
-        "editor.action.goToDeclaration"
-      ]
+      "before": ["g", "d"],
+      "commands": ["editor.action.goToDeclaration"]
     },
     {
-      "before": [
-        "g",
-        "r"
-      ],
-      "commands": [
-        "editor.action.goToReferences"
-      ]
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
     },
     {
-      "before": [
-        "W"
-      ],
-      "after": [
-        "0",
-        "w"
-      ]
+      "before": ["W"],
+      "after": ["0", "w"]
     },
     {
-      "before": [
-        "leader",
-        "s",
-        "f"
-      ],
-      "commands": [
-        "workbench.action.quickOpen"
-      ]
+      "before": ["leader", "s", "f"],
+      "commands": ["workbench.action.quickOpen"]
     }
   ],
   "vim.visualModeKeyBindings": [
     {
-      "before": [
-        "leader",
-        "f",
-        "t"
-      ],
-      "commands": [
-        "markdownTablePrettify.prettifyTables"
-      ]
+      "before": ["leader", "f", "t"],
+      "commands": ["markdownTablePrettify.prettifyTables"]
     }
   ],
   "vim.handleKeys": {
-    "<C-a>": false,n
+    "<C-a>": false,
     "<C-f>": false
   },
   "extensions.experimental.affinity": {
@@ -161,16 +104,11 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "settingsSync.ignoredExtensions": [
-    "sallar.vscode-duotone-dark"
-  ],
+  "settingsSync.ignoredExtensions": ["sallar.vscode-duotone-dark"],
   "terminal.integrated.profiles.windows": {
     "Ubuntu (WSL)": {
       "path": "C:\\Windows\\System32\\wsl.exe",
-      "args": [
-        "-d",
-        "Ubuntu"
-      ]
+      "args": ["-d", "Ubuntu"]
     }
   },
   "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
@@ -178,9 +116,7 @@
     "source.organizeImports": "explicit",
     "source.fixAll": "explicit"
   },
-  "settingsSync.ignoredSettings": [
-    "terminal.external.windowsExec"
-  ],
+  "settingsSync.ignoredSettings": ["terminal.external.windowsExec"],
   "debug.console.fontFamily": "JetBrainsMono Nerd Font Mono",
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
@@ -200,6 +136,5 @@
   "workbench.statusBar.visible": false,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "editor.formatOnSave": true,
-  "window.menuBarVisibility": "compact"
+  "editor.formatOnSave": true
 }
