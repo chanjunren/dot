@@ -6,4 +6,4 @@ NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/jblab_2021.omp.json)"
-eval "$(oh-my-posh init zsh --config $DOT_FILES/brew/ma-custom-theme.omp.json)"
+eval "$(oh-my-posh init zsh --config $XDG_CONFIG_HOME/brew/ma-custom-theme.omp.json)"

@@ -14,6 +14,7 @@ export XDG_VIDEOS_DIR="$HOME/Videos"
 
 export DOT_FILES="$HOME/dot_files"
 
+export HISTFILE="$XDG_STATE_HOME/zsh/history"
 export LESSHISTFILE=-
 
 
@@ -22,10 +23,10 @@ kernel_version=$(uname -r)
 
 # Windows WSL
 if [[ $kernel_version == *WSL* && $current_kernel == "Linux" ]]; then
-    source ~/dot_files/zsh/zsh_paths_wsl
+  source $XDG_CONFIG_HOME/zsh/zsh_paths_wsl
 # Mac
 elif [[ "$current_kernel" == "Darwin" ]]; then
-    source ~/dot_files/zsh/zsh_paths_mac
+    source $XDG_CONFIG_HOME/zsh/zsh_paths_mac
 fi
 
 # Created by Zap installer
@@ -40,6 +41,6 @@ plug "zap-zsh/vim"
 autoload -Uz compinit
 compinit
 
-source ~/dot_files/brew/setup
-source ~/dot_files/zsh/zsh_aliases
+source $XDG_CONFIG_HOME/brew/setup
+source $XDG_CONFIG_HOME/zsh/zsh_aliases
 

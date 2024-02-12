@@ -1,6 +1,6 @@
-^/assets
-^/archived
-^/setup
+^assets/
+^archived/
+^setup/
 
 \.git
 \.gitignore
