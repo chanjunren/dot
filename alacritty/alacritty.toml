@@ -22,7 +22,7 @@ x = 10
 y = 10
 
 [font]
-size = 13
+size = 11
 
 [font.normal]
 family = "JetBrainsMono Nerd Font Mono"

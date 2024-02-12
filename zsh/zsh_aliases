@@ -1,5 +1,7 @@
 # general
 alias ll="ls -al"
+alias dot="cd ~/dot_files"
+alias cl="clear"
 
 # git
 alias g="git"
