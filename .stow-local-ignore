@@ -2,5 +2,6 @@
 ^archived/
 ^setup/
 
+ssh/ssh_setup.sh
 \.git
 \.gitignore
