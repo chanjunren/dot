@@ -33,7 +33,8 @@ New-Item -Path ~\dot_files -ItemType SymbolicLink -Value .\dot_files\
 New-Item -Path C:\Users\cjr_1\AppData\Roaming\alacritty -ItemType SymbolicLink -Value C:\Users\cjr_1\dot_files\alacritty\.config\alacritty
 ```
 
-## Resources
+## 🐶 Resources
+- https://wiki.archlinux.org/title/XDG_Base_Directory
 - https://github.com/rockerBOO/awesome-neovim
 - chris@machine Neovim series
 - Smart friends 
