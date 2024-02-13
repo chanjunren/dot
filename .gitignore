@@ -1,3 +1,6 @@
 .idea
 /nvim/plugin
 .obsidian
+
+ssh/.ssh/id*
+ssh/.ssh/known*

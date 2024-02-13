@@ -16,6 +16,7 @@ args = ["-e", "/bin/zsh"]
 [window]
 decorations = "none"
 opacity = 0.96
+decorations_theme_variant = "Light"
 
 [window.padding]
 x = 10
