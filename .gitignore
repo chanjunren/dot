@@ -2,5 +2,7 @@
 /nvim/plugin
 .obsidian
 
+tmux/.config/tmux/plugins
+
 ssh/.ssh/id*
 ssh/.ssh/known*
