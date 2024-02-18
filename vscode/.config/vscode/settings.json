@@ -101,10 +101,6 @@
     "vscodevim.vim": 1
   },
   "editor.lineNumbers": "relative",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "settingsSync.ignoredExtensions": ["sallar.vscode-duotone-dark"],
   "terminal.integrated.profiles.windows": {
     "Ubuntu (WSL)": {
       "path": "C:\\Windows\\System32\\wsl.exe",
@@ -122,19 +118,22 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
   "window.zoomLevel": 1,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.accessibilitySupport": "off",
   "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.activityBar.iconClickBehavior": "focus",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
+  "editor.formatOnSave": true,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "editor.formatOnSave": true
+  "workbench.iconTheme": "catppuccin-latte"
 }
