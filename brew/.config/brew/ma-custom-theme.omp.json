@@ -78,7 +78,7 @@
         {
           "foreground": "#ffffff",
           "style": "plain",
-          "template": "<#000000>\u276f</>",
+          "template": "<#04a5e5>\u276f</>",
           "type": "text"
         }
       ],
