@@ -135,5 +135,9 @@
   "editor.formatOnSave": true,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "catppuccin-latte"
+  "workbench.iconTheme": "catppuccin-latte",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false
 }
