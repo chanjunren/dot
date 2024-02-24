@@ -1,9 +1,5 @@
 {
-  "workbench.colorTheme": "GitHub Light",
-  "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#000000",
-    "terminalCursor.foreground": "#000000"
-  },
+  "workbench.colorTheme": "Nord",
   "background.fullscreen": {
     "images": ["file:///Users/chanjunren/dot_files/assets/baishu.jpeg"],
     "opacity": 0.9,
@@ -135,7 +131,7 @@
   "editor.formatOnSave": true,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "catppuccin-latte",
+  "workbench.iconTheme": "catppuccin-mocha",
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "none",

@@ -17,7 +17,6 @@ export DOT_FILES="$HOME/dot_files"
 export HISTFILE="$XDG_STATE_HOME/zsh/history"
 export LESSHISTFILE=-
 
-
 current_kernel=$(uname)
 kernel_version=$(uname -r)
 
