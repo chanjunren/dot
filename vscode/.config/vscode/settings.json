@@ -1,7 +1,7 @@
 {
   "workbench.colorTheme": "Nord",
   "background.fullscreen": {
-    "images": ["file:///Users/chanjunren/dot_files/assets/baishu.jpeg"],
+    "images": ["file:///C:/Users/cjr_1/dot_files/assets/baishu.jpeg"],
     "opacity": 0.9,
     "size": "cover",
     "position": "center"
@@ -135,5 +135,6 @@
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "none",
-  "editor.renderControlCharacters": false
+  "editor.renderControlCharacters": false,
+  "workbench.colorCustomizations": {}
 }
