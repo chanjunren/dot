@@ -5,19 +5,30 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#000000",
+          "background": "#13151b",
+          "foreground": "#ffffff",
+          "leading_diamond": "\ue0b6",
+          "properties": {
+            "windows": "\ue62a"
+          },
+          "style": "diamond",
+          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}}",
+          "type": "os"
+        },
+        {
+          "background": "#13151b",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "leading_diamond": "\ue0b6",
           "properties": {
             "style": "full"
           },
-          "style": "diamond",
+          "style": "powerline",
           "template": "{{ .Path }} ",
           "type": "path"
         },
         {
-          "background": "#c44569",
+          "background": "#5E81AC",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
@@ -36,14 +47,14 @@
           "type": "python"
         },
         {
-          "background": "#ffffff",
+          "background": "#4C566A",
           "background_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#FCA17D{{ end }}",
-            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#f26d50{{ end }}",
-            "{{ if gt .Ahead 0 }}#89d1dc{{ end }}",
-            "{{ if gt .Behind 0 }}#f17c37{{ end }}"
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#81A1C1{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#B48EAD{{ end }}",
+            "{{ if gt .Ahead 0 }}#5E81AC{{ end }}",
+            "{{ if gt .Behind 0 }}#EBCB8B{{ end }}"
           ],
-          "foreground": "#000000",
+          "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "fetch_status": true,
@@ -68,7 +79,7 @@
         {
           "foreground": "#ffffff",
           "style": "plain",
-          "template": "<#f78fb3>\u276f</>",
+          "template": "<#ffffff>\u276f</>",
           "type": "text"
         }
       ],

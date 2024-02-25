@@ -1,29 +1,29 @@
 customCommands:
-  - key: 'G'
-    command: 'gitmoji -c'
-    context: 'files'
-    description: 'Gitmoji Commit'
+  - key: "G"
+    command: "gitmoji -c"
+    context: "files"
+    description: "Gitmoji Commit"
     subprocess: true
 git:
   parseEmoji: true
 gui:
   theme:
     activeBorderColor:
-      - '#eba0ac'
+      - "#5E81AC"
       - bold
     inactiveBorderColor:
-      - '#a6adc8'
+      - "#a6adc8"
     optionsTextColor:
-      - '#89b4fa'
+      - "#89b4fa"
     selectedLineBgColor:
-      - '#313244'
+      - "#313244"
     cherryPickedCommitBgColor:
-      - '#45475a'
+      - "#45475a"
     cherryPickedCommitFgColor:
-      - '#eba0ac'
+      - "#5E81AC"
     unstagedChangesColor:
-      - '#f38ba8'
+      - "#f38ba8"
     defaultFgColor:
-      - '#cdd6f4'
+      - "#cdd6f4"
     searchingActiveBorderColor:
-      - '#f9e2af'
+      - "#f9e2af"
