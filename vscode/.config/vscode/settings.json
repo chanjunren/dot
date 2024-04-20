@@ -1,8 +1,8 @@
 {
-  "workbench.colorTheme": "Gruvbox Material Dark",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "background.fullscreen": {
     "images": ["file:///C:/Users/cjr_1/dot_files/assets/baishu.jpeg"],
-    "opacity": 0.9,
+    "opacity": 0.8,
     "size": "cover",
     "position": "center"
   },
@@ -113,7 +113,6 @@
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
-  "window.zoomLevel": 1,
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[json]": {
@@ -135,5 +134,8 @@
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "none",
-  "editor.renderControlCharacters": false
+  "editor.renderControlCharacters": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
