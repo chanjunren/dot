@@ -130,7 +130,7 @@
   "editor.formatOnSave": true,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.iconTheme": "gruvbox-material-icon-theme",
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "none",
