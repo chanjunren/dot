@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★★",
   "background.fullscreen": {
     "images": ["file:///C:/Users/cjr_1/dot_files/assets/baishu.jpeg"],
     "opacity": 0.8,
@@ -137,5 +137,6 @@
   "editor.renderControlCharacters": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "window.menuBarVisibility": "compact"
 }
