@@ -1,14 +1,18 @@
 {
-  "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★★",
+  "workbench.colorTheme": "GitHub Dark Default",
   "background.fullscreen": {
-    "images": ["file:///C:/Users/cjr_1/dot_files/assets/baishu.jpeg"],
-    "opacity": 0.8,
+    "images": ["file:///Users/chanjunren//dot_files/assets/baishu.jpeg"],
+    "opacity": 0.9,
     "size": "cover",
     "position": "center"
   },
   "vim.leader": "<space>",
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(160, 196, 157, 0.3)",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffffff",
+    "terminalCursor.foreground": "#ffffff"
+  },
   "vim.highlightedyank.duration": 400,
   "vim.hlsearch": true,
   "vim.useSystemClipboard": true,
@@ -138,5 +142,12 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.menuBarVisibility": "compact"
+  "window.menuBarVisibility": "compact",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }

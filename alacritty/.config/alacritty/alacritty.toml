@@ -5,7 +5,8 @@ import = [
   #"~/dot_files/alacritty/.config/alacritty/catppuccin-latte.toml"
   #"~/dot_files/alacritty/.config/alacritty/nord.toml"
   #"~/dot_files/alacritty/.config/alacritty/gruvbox_material_hard_dark.toml"
-  "~/dot_files/alacritty/.config/alacritty/gruvbox_material_medium_dark.toml"
+  # "~/dot_files/alacritty/.config/alacritty/gruvbox_material_medium_dark.toml"
+  "~/dot_files/alacritty/.config/alacritty/github_dark_tritanopia.toml",
   # "~/.config/alacritty/catppuccin-frappe.toml"
   # "~/.config/alacritty/catppuccin-macchiato.toml"
 
@@ -29,4 +30,3 @@ size = 11
 
 [font.normal]
 family = "JetBrainsMono Nerd Font Mono"
-
