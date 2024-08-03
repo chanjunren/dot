@@ -1,8 +1,8 @@
 # general
 alias ll="ls -al"
-alias dot="cd ~/dot_files"
+alias dot="cd ~/.nexus/dot"
 alias win="cd /mnt/c/Users/cjr_1"
-alias cjr="cd ~/Projects/chanjunren.github.io/"
+alias cjr="cd ~/.nexus/chanjunren.github.io/"
 
 alias cl="clear"
 

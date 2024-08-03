@@ -1,0 +1,6 @@
+--target=~/
+--ignore='assets'
+--ignore='archived'
+--ignore='setup'
+--ignore='\.*'
+--ignore='README\.md'

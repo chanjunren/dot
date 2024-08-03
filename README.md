@@ -14,7 +14,7 @@
 chsh -s $(which zsh)
 
 # Installing
-brew bundle --file=~/dot_files/brew/Brewfile
+brew bundle --file=~/.nexus/dot/brew/Brewfile
 
 # Exporting brew packages
 brew bundle dump

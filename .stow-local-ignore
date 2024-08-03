@@ -2,6 +2,8 @@
 ^archived/
 ^setup/
 
+README.md
+
 ssh/ssh_setup.sh
 
 \.git
