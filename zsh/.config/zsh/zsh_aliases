@@ -25,6 +25,8 @@ alias gsp="git stash pop"
 alias gss="git stash save"
 alias gsd="git stash drop"
 alias grh="git reset --hard"
+alias gprune="git remote prune origin"
+alias ggc="git gc --prune=now"
 
 # maven
 alias mci="mvn clean install -DskipTests"

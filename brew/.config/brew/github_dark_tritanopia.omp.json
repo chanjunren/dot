@@ -1,12 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "auto_upgrade": true,
   "blocks": [
     {
       "alignment": "left",
       "newline": true,
       "segments": [
         {
-          "foreground": "#ecf2f8",
+          "foreground": "#161b22",
           "style": "plain",
           "template": "\u250c 🌳 ",
           "type": "session"
@@ -14,7 +15,6 @@
         {
           "background": "#161b22",
           "foreground": "#ecf2f8",
-          "powerline_symbol": "\ue0b0",
           "properties": {
             "style": "folder"
           },
@@ -24,7 +24,7 @@
         },
         {
           "background": "#ecf2f8",
-          "foreground": "#32302f",
+          "foreground": "#161b22",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "branch_ahead_icon": "\u2191",
@@ -47,7 +47,7 @@
         },
         {
           "background": "#ffee58",
-          "foreground": "#100e23",
+          "foreground": "#161b22",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " {{ .WorkspaceName }} ",
@@ -69,13 +69,13 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#ecf2f8",
+          "foreground": "#161b22",
           "style": "plain",
           "template": "\u2514 ",
           "type": "text"
         },
         {
-          "foreground": "#ecf2f8",
+          "foreground": "#161b22",
           "style": "plain",
           "template": ">",
           "type": "text"

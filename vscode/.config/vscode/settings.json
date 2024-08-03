@@ -1,8 +1,8 @@
 {
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "GitHub Light Default",
   "background.fullscreen": {
     "images": ["file:///Users/chanjunren//dot_files/assets/baishu.jpeg"],
-    "opacity": 0.9,
+    "opacity": 0.85,
     "size": "cover",
     "position": "center"
   },
@@ -10,8 +10,8 @@
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(160, 196, 157, 0.3)",
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#ffffff",
-    "terminalCursor.foreground": "#ffffff"
+    "editorCursor.foreground": "#000000",
+    "terminalCursor.foreground": "#000000"
   },
   "vim.highlightedyank.duration": 400,
   "vim.hlsearch": true,
