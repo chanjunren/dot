@@ -5,7 +5,7 @@ export NEXUS_PATH
 alias ll="ls -al"
 alias dot="cd $NEXUS_PATH/dot"
 alias win="cd /mnt/c/Users/cjr_1"
-alias cjr="cd $NEXUS_PATH/chanjunren.github.io/"
+alias www="cd $NEXUS_PATH/chanjunren.github.io/www"
 
 alias cl="clear"
 
