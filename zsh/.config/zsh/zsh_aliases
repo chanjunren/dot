@@ -3,11 +3,14 @@ NEXUS_PATH=~/.nexus
 export NEXUS_PATH
 
 alias ll="ls -al"
+
+# shortcuts to directories
 alias dot="cd $NEXUS_PATH/dot"
 alias win="cd /mnt/c/Users/cjr_1"
 alias www="cd $NEXUS_PATH/chanjunren.github.io/www"
 alias rmk="cd $NEXUS_PATH/docusaurus-obsidian-bridge/packages/remark-docusaurus-obsidian-bridge"
 alias dob="cd $NEXUS_PATH/docusaurus-obsidian-bridge/packages/docusaurus-plugin-obsidian-bridge"
+alias theme="cd $NEXUS_PATH/docusaurus-obsidian-bridge/packages/docusaurus-theme-obsidian-bridge"
 
 alias cl="clear"
 
@@ -41,3 +44,6 @@ alias mdt="mvn dependency:tree"
 
 # lazygit
 alias lg="lazygit"
+
+# npm
+alias pub="npm publish --access public"
