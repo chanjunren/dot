@@ -1,17 +1,12 @@
 {
-  "workbench.colorTheme": "GitHub Light Default",
-  "background.fullscreen": {
-    "images": ["file:///Users/chanjunren//dot_files/assets/baishu.jpeg"],
-    "opacity": 0.85,
-    "size": "cover",
-    "position": "center"
-  },
+  "workbench.colorTheme": "★★★★★ GRUVBOX ★★★",
   "vim.leader": "<space>",
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(160, 196, 157, 0.3)",
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#000000",
-    "terminalCursor.foreground": "#000000"
+    "editorCursor.foreground": "#FFFFFF",
+    "terminalCursor.foreground": "#FFFFFF",
+    "editor.selectionBackground": "#504945"
   },
   "vim.highlightedyank.duration": 400,
   "vim.hlsearch": true,
@@ -149,5 +144,6 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "settingsSync.ignoredExtensions": ["shalldie.background"]
 }

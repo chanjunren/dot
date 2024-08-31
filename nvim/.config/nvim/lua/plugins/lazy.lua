@@ -8,7 +8,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "github_light_default",
+      colorscheme = "gruvbox-material",
     },
   },
 }
