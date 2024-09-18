@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "★★★★★ GRUVBOX ★★★",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "vim.leader": "<space>",
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(160, 196, 157, 0.3)",
