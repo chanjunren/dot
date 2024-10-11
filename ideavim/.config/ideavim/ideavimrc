@@ -90,9 +90,10 @@ nmap <space>ca <Action>(ShowIntentionActions)
 nmap <space>fm <Action>(ShowReformatFileDialog)
 vmap <space>fm <Action>(ShowReformatFileDialog)
 nmap <F1> <Action>(ShowReformatFileDialog)
+
 " Running files
 nnoremap ,r :action ChooseRunConfiguration<CR>
-nmap <space>tc :action RunCoverage<CR>
+nmap <space>tc :action Coverage<CR>
 nmap <space>tC gg:action MethodDown<CR>zz:action RunCoverage<CR>
 nnoremap ,c :action RunClass<CR>
 nnoremap ,f :action ChooseRunConfiguration<CR>
