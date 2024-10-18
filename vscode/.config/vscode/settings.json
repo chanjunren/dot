@@ -2,7 +2,7 @@
   "workbench.colorTheme": "Rosé Pine Moon (no italics)",
   "vim.leader": "<space>",
   "vim.highlightedyank.enable": true,
-  "vim.highlightedyank.color": "rgba(160, 196, 157, 0.3)",
+  "vim.highlightedyank.color": "rgba(242,233,225,0.3)",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#FFFFFF",
     "terminalCursor.foreground": "#FFFFFF",
@@ -145,5 +145,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "settingsSync.ignoredExtensions": ["shalldie.background"]
+  "glassit.alpha": 248
 }
