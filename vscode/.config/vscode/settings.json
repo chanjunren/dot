@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.colorTheme": "Rosé Pine Moon (no italics)",
   "vim.leader": "<space>",
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(160, 196, 157, 0.3)",
