@@ -27,7 +27,7 @@ stow -D <dir_name>
 
 ### Windows (Powershell)
 ```powershell
-<# Symbolic link#>
+# Path - where the symbolic link will be | Value - Source file
 New-Item -Path ~\dot_files -ItemType SymbolicLink -Value .\dot_files\
 
 New-Item -Path C:\Users\cjr_1\AppData\Roaming\alacritty -ItemType SymbolicLink -Value C:\Users\cjr_1\dot_files\alacritty\.config\alacritty
@@ -37,6 +37,4 @@ New-Item -Path C:\Users\cjr_1\AppData\Roaming\alacritty -ItemType SymbolicLink -
 - https://wiki.archlinux.org/title/XDG_Base_Directory
 - https://github.com/rockerBOO/awesome-neovim
 - chris@machine Neovim series
-- Smart friends 
-  - (https://github.com/evantancy)
 - https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_server_configuration
