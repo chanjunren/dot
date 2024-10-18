@@ -8,6 +8,8 @@ local config = wezterm.config_builder()
 -- config.webgpu_preferred_adapter = gpus[1]
 -- config.front_end = "WebGpu"
 
+config.default_domain = "WSL:Ubuntu"
+
 config.front_end = "OpenGL"
 config.max_fps = 144
 config.default_cursor_style = "BlinkingBlock"
@@ -31,13 +33,15 @@ config.cell_width = 0.9
 -- config.cell_width = 0.9
 config.window_background_opacity = 0.9
 config.prefer_egl = true
-config.font_size = 18.0
+config.font_size = 10.0
+
+local PADDING = 10
 
 config.window_padding = {
-	left = 0,
-	right = 0,
-	top = 0,
-	bottom = 0,
+	left = PADDING,
+	right = PADDING,
+	top = PADDING,
+	bottom = PADDING,
 }
 
 -- tabs
