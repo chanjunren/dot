@@ -24,13 +24,10 @@ find ~ -maxdepth 1 -lname 'dot_files/*' -exec echo rm {} \;
 find ~ -maxdepth 1 -lname 'dot_files/*' -exec rm {} \;
 stow -D <dir_name>
 ```
-
 ### Windows (Powershell)
 ```powershell
 # Path - where the symbolic link will be | Value - Source file
-New-Item -Path ~\dot_files -ItemType SymbolicLink -Value .\dot_files\
-
-New-Item -Path C:\Users\cjr_1\AppData\Roaming\alacritty -ItemType SymbolicLink -Value C:\Users\cjr_1\dot_files\alacritty\.config\alacritty
+New-Item -Path .\.config\wezterm -ItemType SymbolicLink -Value .\dot_files\wezterm\.config\wezterm
 ```
 
 ## 🐶 Resources
