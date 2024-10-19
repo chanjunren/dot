@@ -22,10 +22,10 @@ kernel_version=$(uname -r)
 
 # Windows WSL
 if [[ $kernel_version == *WSL* && $current_kernel == "Linux" ]]; then
-  source $XDG_CONFIG_HOME/zsh/paths_wsl
+  source $XDG_CONFIG_HOME/zsh/paths_wsl.sh
 # Mac
 elif [[ "$current_kernel" == "Darwin" ]]; then
-    source $XDG_CONFIG_HOME/zsh/paths_mac
+    source $XDG_CONFIG_HOME/zsh/paths_mac.sh
 fi
 
 # Created by Zap installer
@@ -41,18 +41,6 @@ autoload -Uz compinit
 compinit
 
 source $XDG_CONFIG_HOME/brew/setup
-source $XDG_CONFIG_HOME/zsh/aliases
-
-# Check if inside a tmux session
-if [[ -z "$TMUX" ]]; then
-  # Check if there is any existing tmux session
-  if tmux ls >/dev/null 2>&1; then
-    # Attach to the first session found
-    tmux attach-session -t 0
-  else
-    # No session exists, create a new one
-    tmux new-session
-  fi
-fi
-
+source $XDG_CONFIG_HOME/zsh/aliases.sh
+source $XDG_CONFIG_HOME/zsh/tmuxify.sh
 
