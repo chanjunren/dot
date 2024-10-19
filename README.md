@@ -30,6 +30,11 @@ stow -D <dir_name>
 New-Item -Path .\.config\wezterm -ItemType SymbolicLink -Value .\dot_files\wezterm\.config\wezterm
 ```
 
+## Paths
+| Path   | Description                                               |
+|--------|-----------------------------------------------------------|
+| VSCode | `/C:/Users/cjr_1/AppData/Roaming/Code/User/settings.json` |
+
 ## 🐶 Resources
 - https://wiki.archlinux.org/title/XDG_Base_Directory
 - https://github.com/rockerBOO/awesome-neovim
