@@ -17,7 +17,7 @@ config.animation_fps = 1
 config.cursor_blink_rate = 500
 config.term = "xterm-256color" -- Set the terminal type
 
-config.font = wezterm.font("JetBrainsMono Nerd Font Mono")
+config.font = wezterm.font("JetBrains Mono")
 -- config.font = wezterm.font("Monocraft Nerd Font")
 -- config.font = wezterm.font("FiraCode Nerd Font Mono")
 -- config.font = wezterm.font("JetBrains Mono Regular")
@@ -175,7 +175,7 @@ config.colors = {
 }
 
 config.window_frame = {
-	font = wezterm.font({ family = "JetBrainsMono Nerd Font Mono", weight = "Regular" }),
+	font = wezterm.font({ family = "JetBrains Mono", weight = "Regular" }),
 	active_titlebar_bg = "#0c0b0f",
 	-- active_titlebar_bg = "#181616",
 }
