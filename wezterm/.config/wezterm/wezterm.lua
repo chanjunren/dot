@@ -7,8 +7,18 @@ local config = wezterm.config_builder()
 -- local gpus = wezterm.gui.enumerate_gpus()
 -- config.webgpu_preferred_adapter = gpus[1]
 -- config.front_end = "WebGpu"
+--
 
-config.default_domain = "WSL:Ubuntu"
+function isWSL()
+	local handle = io.popen("uname -r")
+	local kernel_version = handle:read("*a")
+	handle:close()
+	return string.find(kernel_version:lower(), "wsl") ~= nil
+end
+
+if isWSL() then
+	config.default_domain = "WSL:Ubuntu"
+end
 
 config.front_end = "OpenGL"
 config.max_fps = 144
