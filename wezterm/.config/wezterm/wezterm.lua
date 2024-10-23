@@ -20,10 +20,26 @@ function isWindows()
 	return string.find(uname_result:lower(), "msys") ~= nil
 end
 
+local PADDING = 15
+local FONT_SIZE = 14.0
+
+
 if isWindows() then
-	print("HELLO")
 	config.default_domain = "WSL:Ubuntu"
+  config.default_prog = { "powershell.exe", "-NoLogo" }
+
+  FONT_SIZE = 10.0
+  PADDING = 10
 end
+
+config.window_padding = {
+	left = PADDING,
+	right = PADDING,
+	top = PADDING,
+	bottom = PADDING,
+}
+
+config.font_size = FONT_SIZE
 
 config.front_end = "OpenGL"
 config.max_fps = 144
@@ -48,16 +64,6 @@ config.cell_width = 0.9
 -- config.cell_width = 0.9
 config.window_background_opacity = 0.9
 config.prefer_egl = true
-config.font_size = 10.0
-
-local PADDING = 10
-
-config.window_padding = {
-	left = PADDING,
-	right = PADDING,
-	top = PADDING,
-	bottom = PADDING,
-}
 
 -- tabs
 config.hide_tab_bar_if_only_one_tab = true
@@ -197,7 +203,6 @@ config.window_frame = {
 
 -- config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
 config.window_decorations = "NONE | RESIZE"
-config.default_prog = { "powershell.exe", "-NoLogo" }
 config.initial_cols = 80
 -- config.window_background_image = "C:/dev/misc/berk.png"
 -- config.window_background_image_hsb = {
