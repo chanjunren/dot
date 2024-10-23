@@ -9,14 +9,19 @@ local config = wezterm.config_builder()
 -- config.front_end = "WebGpu"
 --
 
-function isWSL()
-	local handle = io.popen("uname -r")
-	local kernel_version = handle:read("*a")
-	handle:close()
-	return string.find(kernel_version:lower(), "wsl") ~= nil
+function isWindows()
+	local handle = io.popen("uname")
+	local uname_result
+	if handle then
+		uname_result = handle:read("*a")
+		handle:close()
+	end
+
+	return string.find(uname_result:lower(), "msys") ~= nil
 end
 
-if isWSL() then
+if isWindows() then
+	print("HELLO")
 	config.default_domain = "WSL:Ubuntu"
 end
 
