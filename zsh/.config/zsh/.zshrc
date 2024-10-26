@@ -42,5 +42,5 @@ compinit
 
 source $XDG_CONFIG_HOME/brew/setup
 source $XDG_CONFIG_HOME/zsh/aliases.sh
-source $XDG_CONFIG_HOME/zsh/tmuxify.sh
+source $XDG_CONFIG_HOME/zsh/scripts/tmuxify.sh
 
