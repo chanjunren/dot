@@ -2,11 +2,11 @@
   "workbench.colorTheme": "Rosé Pine Moon (no italics)",
   "vim.leader": "<space>",
   "vim.highlightedyank.enable": true,
-  "vim.highlightedyank.color": "rgba(242,233,225,0.3)",
+  "vim.highlightedyank.color": "rgba(144, 140, 170, 0.5)",
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#FFFFFF",
-    "terminalCursor.foreground": "#FFFFFF",
-    "editor.selectionBackground": "#504945"
+    "editorCursor.foreground": "#f4ede8",
+    "terminalCursor.foreground": "#f4ede8",
+    "editor.selectionBackground": "#44415a"
   },
   "vim.highlightedyank.duration": 400,
   "vim.hlsearch": true,
