@@ -1,4 +1,5 @@
-![Mah bootifoo terminal](assets/banner.png)
+![02112024](assets/new_banner.png)
+![18122023](assets/banner.png)
 
 ## 🫎 Prerequisites
 - `nerdfont` (currently using `UbuntuMono Nerd Font`)
