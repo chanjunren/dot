@@ -2,6 +2,8 @@
 /nvim/plugin
 .obsidian
 
+.glzr/glazewm/errors.log
+
 tmux/.config/tmux/plugins
 
 ssh/.ssh/id*
