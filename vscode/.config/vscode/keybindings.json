@@ -56,21 +56,21 @@
     "command": "workbench.action.terminal.killActiveTab"
   },
   {
-    "key": "cmd+1",
+    "key": "cmd+e",
     "command": "workbench.view.explorer"
   },
   {
-    "key": "cmd+1",
+    "key": "cmd+e",
     "command": "workbench.action.closeSidebar",
     "when": "filesExplorerFocus"
   },
   {
-    "key": "alt+1",
+    "key": "alt+e",
     "command": "workbench.action.closeSidebar",
     "when": "filesExplorerFocus"
   },
   {
-    "key": "alt+1",
+    "key": "alt+e",
     "command": "workbench.view.explorer",
     "when": "!filesExplorerFocus"
   },
