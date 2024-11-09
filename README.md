@@ -27,14 +27,15 @@ stow -D <dir_name>
 ```
 ### Windows (Powershell)
 ```powershell
-# Path - where the symbolic link will be | Value - Source file
-New-Item -Path .\.config\wezterm -ItemType SymbolicLink -Value .\dot_files\wezterm\.config\wezterm
+# Path - where the symbolic link will be 
+# Value - Source file
+New-Item -Path AppData\Roaming\Code\User\settings.json -Value .\dot\.config\vscode\settings.json -ItemType SymbolicLink 
 ```
 
 ## Paths
 | Path   | Description                                               |
 |--------|-----------------------------------------------------------|
-| VSCode | `/C:/Users/cjr_1/AppData/Roaming/Code/User/settings.json` |
+| VSCode | `AppData\Roaming\Code\User` |
 
 ## 🐶 Resources
 - https://wiki.archlinux.org/title/XDG_Base_Directory

@@ -4,10 +4,10 @@
 
 .config/.glzr/glazewm/errors.log
 
-.config/tmux/plugins
+*/tmux/plugins
 
-ssh/.ssh/id*
-ssh/.ssh/known*
+*/.ssh/id*
+*/.ssh/known*
 
 .config/configstore
 .config/gitmoji-nodejs
