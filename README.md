@@ -30,6 +30,8 @@ stow -D <dir_name>
 # Path - where the symbolic link will be 
 # Value - Source file
 New-Item -Path AppData\Roaming\Code\User\settings.json -Value .\dot\.config\vscode\settings.json -ItemType SymbolicLink 
+New-Item -Path .glzr -Value .\dot\.config\.glzr -ItemType SymbolicLink
+New-Item -Path .wezterm.lua -Value .\dot\.config\wezterm\wezterm.lua -ItemType SymbolicLink
 ```
 
 ## Paths
