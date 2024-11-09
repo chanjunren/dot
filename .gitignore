@@ -2,9 +2,12 @@
 /nvim/plugin
 .obsidian
 
-.glzr/glazewm/errors.log
+.config/.glzr/glazewm/errors.log
 
-tmux/.config/tmux/plugins
+.config/tmux/plugins
 
 ssh/.ssh/id*
 ssh/.ssh/known*
+
+.config/configstore
+.config/gitmoji-nodejs
