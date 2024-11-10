@@ -23,7 +23,9 @@ brew bundle dump
 # Removing incorrectly generated symlinks 😰
 find ~ -maxdepth 1 -lname 'dot_files/*' -exec echo rm {} \;
 find ~ -maxdepth 1 -lname 'dot_files/*' -exec rm {} \;
-stow -D <dir_name>
+
+stow .config -t ~/.config
+stow .home -t ~
 ```
 ### Windows (Powershell)
 ```powershell
