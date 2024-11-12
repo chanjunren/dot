@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Rosé Pine Moon (no italics)",
+  "workbench.colorTheme": "Rosé Pine",
   "vim.leader": "<space>",
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(144, 140, 170, 0.5)",

@@ -2,7 +2,8 @@
 /nvim/plugin
 .obsidian
 
-.config/.glzr/glazewm/errors.log
+.home/.config/.glzr/glazewm/errors.log
+.home/.config/configstore
 
 */tmux/plugins
 
