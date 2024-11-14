@@ -1,14 +1,13 @@
 .idea
-/nvim/plugin
+*/nvim/plugin
 .obsidian
 
-.home/.config/.glzr/glazewm/errors.log
-.home/.config/configstore
+*/.config/.glzr/glazewm/errors.log
+*/.config/configstore
+*/.config/gitmoji-nodejs
 
 */tmux/plugins
 
 */.ssh/id*
 */.ssh/known*
 
-.config/configstore
-.config/gitmoji-nodejs
