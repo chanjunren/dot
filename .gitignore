@@ -5,9 +5,14 @@
 */.config/.glzr/glazewm/errors.log
 */.config/configstore
 */.config/gitmoji-nodejs
+*/.config/zsh/.zsh_sessions/
+*/.config/zsh/.zsh_history
+
+*/.config/gitmoji-nodejs
 
 */tmux/plugins
 
 */.ssh/id*
 */.ssh/known*
+
 

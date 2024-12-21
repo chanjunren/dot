@@ -1,15 +1,16 @@
 ![02112024](assets/new_banner.png)
 ![18122023](assets/banner.png)
 
-## 🫎 Prerequisites
-- `nerdfont` (currently using `UbuntuMono Nerd Font`)
-- `brew`
-- `zsh`
-- `alacritty`
-- `Tmux Plugin Manager` 
+## 🌳 Prerequisites
+- [nerdfont](https://www.nerdfonts.com/font-downloads)
+  - `JetbrainsMono`
+  - `UbuntuMono`
+- [brew](https://brew.sh/)
+- [wezterm](https://wezfurlong.org/wezterm/)
+- [tpm](https://wezfurlong.org/wezterm/)
 
 ## 🐭 Commands dump
-### Mac
+### 🍎 Mac
 ```bash
 # Set zsh as default shell
 chsh -s $(which zsh)
@@ -27,7 +28,8 @@ find ~ -maxdepth 1 -lname 'dot_files/*' -exec rm {} \;
 stow .config -t ~/.config
 stow .home -t ~
 ```
-### Windows (Powershell)
+### 🪟 Windows
+
 ```powershell
 # Path - where the symbolic link will be 
 # Value - Source file
@@ -36,7 +38,7 @@ New-Item -Path .glzr -Value .\dot\.config\.glzr -ItemType SymbolicLink
 New-Item -Path .wezterm.lua -Value .\dot\.config\wezterm\wezterm.lua -ItemType SymbolicLink
 ```
 
-## Paths
+## 🛣️ Paths
 | Path   | Description                                               |
 |--------|-----------------------------------------------------------|
 | VSCode | `AppData\Roaming\Code\User` |
