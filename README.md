@@ -2,10 +2,8 @@
 ![18122023](assets/banner.png)
 
 ## 🌳 Prerequisites
-- [nerdfont](https://www.nerdfonts.com/font-downloads)
-  - `JetbrainsMono`
-  - `UbuntuMono`
 - [brew](https://brew.sh/)
+- [zap](https://github.com/zap-zsh/zap) **remember to run installation with `-k`**
 - [wezterm](https://wezfurlong.org/wezterm/)
 - [tpm](https://wezfurlong.org/wezterm/)
 
@@ -16,7 +14,7 @@
 chsh -s $(which zsh)
 
 # Installing
-brew bundle --file=~/.nexus/dot/brew/Brewfile
+brew bundle --file=~/.nexus/dot/.home/.config/brew/Brewfile
 
 # Exporting brew packages
 brew bundle dump
