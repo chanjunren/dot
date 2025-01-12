@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Rosé Pine",
+  "workbench.colorTheme": "Rosé Pine (no italics)",
   "vim.leader": "<space>",
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(144, 140, 170, 0.5)",
@@ -83,7 +83,11 @@
     },
     {
       "before": ["leader", "e"],
-      "commands": ["workbench.files.action.focusFilesExplorer"]
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["g", "e"],
+      "commands": ["editor.action.marker.next"]
     }
   ],
   "vim.visualModeKeyBindings": [
@@ -149,5 +153,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "glassit.alpha": 248
+  "glassit.alpha": 255
 }
