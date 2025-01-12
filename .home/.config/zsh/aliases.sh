@@ -9,6 +9,7 @@ alias dot="cd $NEXUS_PATH/dot"
 alias win="cd /mnt/c/Users/cjr_1"
 alias www="cd $NEXUS_PATH/chanjunren.github.io/www"
 alias v="cd $NEXUS_PATH/vaultusaurus"
+alias vr="npm run vault_run"
 
 alias cl="clear"
 
