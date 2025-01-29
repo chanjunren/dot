@@ -89,6 +89,10 @@
       "before": ["g", "e"],
       "commands": ["editor.action.marker.next"]
     }
+    {
+      "before": ["leader", "f"],
+      "commands": ["editor.action.quickFix"]
+    }
   ],
   "vim.visualModeKeyBindings": [
     {
