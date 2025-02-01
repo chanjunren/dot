@@ -13,6 +13,10 @@ NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 PATH=$NVM_DIR:$PATH
+
+FLUTTER_PATH=$HOME/fvm/versions/3.27.3/bin
+PATH=$FLUTTER_PATH:$PATH
+
 export PATH
 
-export RBENV_ROOT="$XDG_DATA_HOME"/rbenv
+export PATH=$HOME/development/flutter/bin:$PATH
