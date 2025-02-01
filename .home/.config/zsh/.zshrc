@@ -40,7 +40,7 @@ plug "zap-zsh/vim"
 autoload -Uz compinit
 compinit
 
-source $XDG_CONFIG_HOME/brew/setup
+source $XDG_CONFIG_HOME/brew/init.sh
 source $XDG_CONFIG_HOME/zsh/aliases.sh
 source $XDG_CONFIG_HOME/zsh/scripts/tmuxify.sh
-
+source $XDG_CONFIG_HOME/rbenv/init.sh

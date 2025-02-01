@@ -1,0 +1,7 @@
+export RBENV_ROOT="$XDG_CONFIG_HOME/rbenv"
+
+export RUBY_BUILD_BUILD_PATH="$RBENV_ROOT/tmp"
+export RUBY_BUILD_CACHE_PATH="$RBENV_ROOT/cache"
+export RUBY_BUILD_DEFINITIONS="$RBENV_ROOT"
+
+eval "$(rbenv init -)"

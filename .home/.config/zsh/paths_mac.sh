@@ -14,3 +14,5 @@ NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 PATH=$NVM_DIR:$PATH
 export PATH
+
+export RBENV_ROOT="$XDG_DATA_HOME"/rbenv
