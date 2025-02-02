@@ -2,7 +2,7 @@
 NEXUS_PATH=~/.nexus
 export NEXUS_PATH
 
-alias ll="ls -al"
+alias ll="ls -alh"
 
 # shortcuts to directories
 alias dot="cd $NEXUS_PATH/dot"
@@ -38,11 +38,13 @@ alias ggc="git gc --prune=now"
 # maven
 alias mci="mvn clean install -DskipTests"
 alias mcc="mvn clean compile -DskipTests"
+alias mcp="mvn clean package -DskipTests"
 alias mep="mvn help:effective-pom"
 alias mdt="mvn dependency:tree"
+alias miseg="mvn install:install-file -Dfile=user-segmentation-sdk-1.0.9.3-RELEASE.jar -DgroupId=com.okcoin.segmentation -DartifactId=user-segmentation-sdk -Dversion=1.0.9.3-RELEASE -Dpackaging=jar"
 
 # lazygit
 alias lg="lazygit"
 
 # npm
-alias pub="npm publish --access public"
+alias vault_pub="npm run pack; npm publish --access public"
