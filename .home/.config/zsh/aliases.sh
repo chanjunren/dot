@@ -42,6 +42,7 @@ alias mcp="mvn clean package -DskipTests"
 alias mep="mvn help:effective-pom"
 alias mdt="mvn dependency:tree"
 alias miseg="mvn install:install-file -Dfile=user-segmentation-sdk-1.0.9.3-RELEASE.jar -DgroupId=com.okcoin.segmentation -DartifactId=user-segmentation-sdk -Dversion=1.0.9.3-RELEASE -Dpackaging=jar"
+alias ud="cd target; mkdir test; cp user-segmentation-flink-job-1.0.0-SNAPSHOT-dependencies.jar test; cd test; unzip user-segmentation-flink-job-1.0.0-SNAPSHOT-dependencies.jar; cd ../../"
 
 # lazygit
 alias lg="lazygit"
