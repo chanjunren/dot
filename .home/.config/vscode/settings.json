@@ -4,8 +4,8 @@
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(144, 140, 170, 0.5)",
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#f4ede8",
-    "terminalCursor.foreground": "#f4ede8",
+    "editorCursor.foreground": "#44415a",
+    "terminalCursor.foreground": "#44415a",
     "editor.selectionBackground": "#44415a"
   },
   "vim.highlightedyank.duration": 400,
@@ -153,7 +153,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.menuBarVisibility": "compact",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -161,7 +160,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "glassit.alpha": 255,
   "[dart]": {
 		// Automatically format code on save and during typing of certain characters
 		// (like `;` and `}`).
