@@ -5,13 +5,13 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#908caa",
+          "foreground": "#ebbcba",
           "style": "plain",
-          "template": "\u279c",
+          "template": "🪴 ",
           "type": "text"
         },
         {
-          "foreground": "#d7827e",
+          "foreground": "#ebbcba",
           "properties": {
             "style": "folder"
           },
@@ -20,16 +20,16 @@
           "type": "path"
         },
         {
-          "foreground": "#908caa",
+          "foreground": "#f6c177",
           "properties": {
             "branch_icon": ""
           },
           "style": "plain",
-          "template": "<#908caa>(</>{{ .HEAD }}<#908caa>)</>",
+          "template": "<#f6c177>(</>{{ .HEAD }}<#f6c177>)</>",
           "type": "git"
         },
         {
-          "foreground": "#BF616A",
+          "foreground": "#ebbcba",
           "style": "plain",
           "template": " \u2717",
           "type": "status"
