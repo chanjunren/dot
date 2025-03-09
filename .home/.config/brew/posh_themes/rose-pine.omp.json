@@ -5,9 +5,10 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#ebbcba",
+          "foreground": "#524f67",
           "style": "plain",
-          "template": " 🍖",
+          "template": " 俊任",
+          "alignment": "top",
           "type": "text"
         },
         {
@@ -20,12 +21,12 @@
           "type": "path"
         },
         {
-          "foreground": "#9ccfd8",
+          "foreground": "#eb6f92",
           "properties": {
             "branch_icon": ""
           },
           "style": "plain",
-          "template": "<#9ccfd8>(</>{{ .HEAD }}<#9ccfd8>)</>",
+          "template": "<#eb6f92>(</>{{ .HEAD }}<#eb6f92>)</>",
           "type": "git"
         },
         {
