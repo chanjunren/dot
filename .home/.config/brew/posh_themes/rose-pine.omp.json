@@ -7,7 +7,7 @@
         {
           "foreground": "#6e6a86",
           "style": "plain",
-          "template": " 俊任",
+          "template": "",
           "alignment": "top",
           "type": "text"
         },
@@ -21,12 +21,12 @@
           "type": "path"
         },
         {
-          "foreground": "#eb6f92",
+          "foreground": "#ea9a97",
           "properties": {
             "branch_icon": ""
           },
           "style": "plain",
-          "template": "<#eb6f92>(</>{{ .HEAD }}<#eb6f92>)</>",
+          "template": "<#ea9a97>(</>{{ .HEAD }}<#ea9a97>)</>",
           "type": "git"
         },
         {
