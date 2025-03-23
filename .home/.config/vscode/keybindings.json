@@ -167,5 +167,9 @@
   {
     "key": "alt+-",
     "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "workbench.panel.chat"
   }
 ]
