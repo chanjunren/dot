@@ -17,4 +17,5 @@
 */.ssh/id*
 */.ssh/known*
 
+*/.config/github-copilot
 
