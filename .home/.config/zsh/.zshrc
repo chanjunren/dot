@@ -26,6 +26,8 @@ if [[ $kernel_version == *WSL* && $current_kernel == "Linux" ]]; then
 # Mac
 elif [[ "$current_kernel" == "Darwin" ]]; then
     source $XDG_CONFIG_HOME/zsh/paths_mac.sh
+else
+    source $XDG_CONFIG_HOME/zsh/paths_linux.sh
 fi
 
 # Created by Zap installer

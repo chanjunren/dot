@@ -49,3 +49,5 @@ alias lg="lazygit"
 
 # npm
 alias vault_pub="npm run pack; npm publish --access public"
+
+alias wezterm='flatpak run org.wezfurlong.wezterm'

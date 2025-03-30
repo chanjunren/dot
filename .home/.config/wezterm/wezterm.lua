@@ -21,15 +21,14 @@ function isWindows()
 end
 
 local PADDING = 15
-local FONT_SIZE = 14.0
-
+local FONT_SIZE = 10.0
 
 if isWindows() then
 	config.default_domain = "WSL:Ubuntu"
-  config.default_prog = { "powershell.exe", "-NoLogo" }
+	config.default_prog = { "powershell.exe", "-NoLogo" }
 
-  FONT_SIZE = 10.0
-  PADDING = 10
+	FONT_SIZE = 10.0
+	PADDING = 10
 end
 
 config.window_padding = {
@@ -202,7 +201,8 @@ config.window_frame = {
 }
 
 -- config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
-config.window_decorations = "NONE | RESIZE"
+-- config.window_decorations = "NONE | RESIZE"
+config.window_decorations = "NONE"
 config.initial_cols = 80
 -- config.window_background_image = "C:/dev/misc/berk.png"
 -- config.window_background_image_hsb = {

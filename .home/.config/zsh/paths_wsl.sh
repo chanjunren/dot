@@ -6,6 +6,7 @@ NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 PATH=$NVM_DIR:$PATH
 
+
 export JAVA_HOME=/usr/local/java-sdk/
 PATH="$JAVA_HOME/bin:$PATH"
 
