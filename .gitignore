@@ -9,6 +9,9 @@
 */.config/zsh/.zsh_history
 */.config/rbenv/versions
 */.config/rbenv/shims
+*/.config/polybar/polybar.log
+
+*/.config/gtk-3.0/bookmarks
 
 */.config/gitmoji-nodejs
 

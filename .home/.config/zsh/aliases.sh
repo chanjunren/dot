@@ -51,3 +51,7 @@ alias lg="lazygit"
 alias vault_pub="npm run pack; npm publish --access public"
 
 alias wezterm='flatpak run org.wezfurlong.wezterm'
+
+alias fonts="cd /usr/local/share/fonts/"
+alias r_fonts="fc-cache -fv"
+# fc-list ? probably don't need
