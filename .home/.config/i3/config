@@ -69,10 +69,10 @@ bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+# bindsym $mod+Left focus left
+# bindsym $mod+Down focus down
+# bindsym $mod+Up focus up
+# bindsym $mod+Right focus right
 
 # move focused window
 bindsym $mod+Shift+h move left
@@ -200,7 +200,7 @@ bindsym $mod+d exec rofi -show drun
 bindsym $mod+Shift+d exec rofi -show run
 
 # Window switcher
-bindsym $mod+w exec rofi -show window
+bindsym $mod+Shift+w exec rofi -show window
 
 # Remove title bar
 for_window [class=".*"] border pixel 2

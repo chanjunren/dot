@@ -185,5 +185,6 @@
     "editor.wordBasedSuggestions": "off"
   },
   "window.menuBarVisibility": "compact",
-  "chat.commandCenter.enabled": false
+  "chat.commandCenter.enabled": false,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font Mono','Droid Sans Mono', 'monospace', monospace"
 }
