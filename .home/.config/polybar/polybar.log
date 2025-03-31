@@ -1,0 +1,829 @@
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 18507)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 19378)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 19388)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|error: libuv error while polling X connection: bad file descriptor
+polybar|notice:  Termination signal received, shutting down...
+polybar|error: Uncaught exception, shutting down: X connection error... (what: Socket, pipe or stream error)
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 20679)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 21750)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 21792)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 21832)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 21840)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 21848)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 21904)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 21964)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 22013)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 22313)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 22327)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 22340)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 22798)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 25881)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 26086)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 28877)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|error: libuv error while polling X connection: bad file descriptor
+polybar|notice:  Termination signal received, shutting down...
+polybar|error: Uncaught exception, shutting down: X connection error... (what: Socket, pipe or stream error)
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 30195)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 32703)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 32803)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 32873)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 32977)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 33067)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 33263)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 33312)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 33366)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|error: libuv error while polling X connection: bad file descriptor
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 34646)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 38505)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 38515)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|error: libuv error while polling X connection: bad file descriptor
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 40038)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42308)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date-alt'
+polybar|error: Disabling module "date" (reason: Unknown module: internal/date-alt)
+polybar|notice:  Loaded 1 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42366)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42433)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42608)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42671)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42736)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42796)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42857)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42912)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42945)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 42979)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 43413)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 43449)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 43789)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44225)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44240)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44283)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44315)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44326)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44339)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44350)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44397)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44472)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44501)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 44553)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 45947)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 46102)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 46115)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 46161)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 46235)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 51289)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|error: libuv error while polling X connection: bad file descriptor
+polybar|notice:  Termination signal received, shutting down...
+polybar|error: Uncaught exception, shutting down: X connection error... (what: Socket, pipe or stream error)
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 53261)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|error: libuv error while polling X connection: bad file descriptor
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 55479)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 59223)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|error: libuv error while polling X connection: bad file descriptor
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 60541)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|warn:  background_manager: Failed to get root pixmap, default to black (is there a wallpaper?)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 62460)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 62471)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 62490)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 62500)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 62511)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 62521)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 71254)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Parsing config file: /home/chanjunren/.config/polybar/config.ini
+polybar|notice:  Listening for IPC messages (PID: 76908)
+polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|warn:  Ignoring restack of i3 window (not needed when `override-redirect = false`)

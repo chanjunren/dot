@@ -20,13 +20,28 @@ function isWindows()
 	return string.find(uname_result:lower(), "msys") ~= nil
 end
 
+function isLinux()
+	local handle = io.popen("uname")
+	local uname_result
+	if handle then
+		uname_result = handle:read("*a")
+		handle:close()
+	end
+	return uname_result and uname_result:lower():find("linux") ~= nil
+end
+
 local PADDING = 15
-local FONT_SIZE = 10.0
+local FONT_SIZE = 14.0
 
 if isWindows() then
 	config.default_domain = "WSL:Ubuntu"
 	config.default_prog = { "powershell.exe", "-NoLogo" }
 
+	FONT_SIZE = 10.0
+	PADDING = 10
+end
+
+if isLinux() then
 	FONT_SIZE = 10.0
 	PADDING = 10
 end
