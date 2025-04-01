@@ -1,13 +1,12 @@
 {
-  "workbench.colorTheme": "Rosé Pine Moon (no italics)",
+  "workbench.colorTheme": "Vesper",
   "vim.leader": "<space>",
   "vim.highlightedyank.enable": true,
-  "vim.highlightedyank.color": "rgba(144, 140, 170, 0.5)",
-  "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#f4ede8",
-    "terminalCursor.foreground": "#f4ede8",
-    "editor.selectionBackground": "#44415a"
-  },
+  "editor.cursorBlinking": "smooth", // smol cursor animation, looks nice
+  "editor.cursorSmoothCaretAnimation": "on",
+  //     top bar
+  "workbench.editor.showTabs": "none", // hide tabs
+  "workbench.editor.editorActionsLocation": "hidden", // hides the "format" and ellipsis buttons on the top right of the window
   "vim.highlightedyank.duration": 400,
   "vim.hlsearch": true,
   "vim.useSystemClipboard": true,
@@ -145,7 +144,7 @@
   "editor.formatOnSave": true,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "gruvbox-material-icon-theme",
+  "workbench.iconTheme": "chalice-icon-theme",
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "none",
@@ -186,5 +185,42 @@
   },
   "window.menuBarVisibility": "compact",
   "chat.commandCenter.enabled": false,
-  "editor.fontFamily": "'JetBrainsMono Nerd Font Mono','Droid Sans Mono', 'monospace', monospace"
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      // remove peppermint flavor
+      {
+        "name": "String, Symbols, Inherited Class",
+        "scope": [
+          "string",
+          "constant.other.symbol",
+          "constant.other.key",
+          "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+        ],
+        "settings": {
+          "foreground": "#A0A0A0"
+        }
+      },
+      {
+        "name": "CSS ID's",
+        "scope": [
+          "source.sass keyword.control",
+          "meta.attribute-selector.scss"
+        ],
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      },
+      {
+        "name": "Inserted",
+        "scope": ["markup.inserted"],
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "terminal.ansiGreen": "#a9dc76", // replace with your preferred color
+    "terminal.ansiBrightGreen": "#c3e88d"
+  }
 }
