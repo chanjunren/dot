@@ -10,6 +10,10 @@
 */.config/rbenv/versions
 */.config/rbenv/shims
 */.config/polybar/polybar.log
+*/.config/github-copilot
+*/.config/tmux/plugins
+*/.config/tool_state
+
 
 */.config/gtk-3.0/bookmarks
 
@@ -20,5 +24,4 @@
 */.ssh/id*
 */.ssh/known*
 
-*/.config/github-copilot
 
