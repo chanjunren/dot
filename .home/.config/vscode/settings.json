@@ -5,7 +5,6 @@
   "editor.cursorBlinking": "smooth", // smol cursor animation, looks nice
   "editor.cursorSmoothCaretAnimation": "on",
   //     top bar
-  "workbench.editor.showTabs": "none", // hide tabs
   "workbench.editor.editorActionsLocation": "hidden", // hides the "format" and ellipsis buttons on the top right of the window
   "vim.highlightedyank.duration": 400,
   "vim.hlsearch": true,

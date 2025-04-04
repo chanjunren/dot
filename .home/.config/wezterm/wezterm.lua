@@ -9,6 +9,9 @@ local config = wezterm.config_builder()
 -- config.front_end = "WebGpu"
 --
 
+-- config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
+config.window_decorations = "NONE | RESIZE"
+
 function isWindows()
 	local handle = io.popen("uname")
 	local uname_result
@@ -44,6 +47,8 @@ end
 if isLinux() then
 	FONT_SIZE = 10.0
 	PADDING = 10
+
+  config.window_decorations = "NONE"
 end
 
 config.window_padding = {
@@ -89,19 +94,9 @@ config.use_fancy_tab_bar = false
 -- 	brightness = 1.0,
 -- }
 
--- This is where you actually apply your config choices
---
-
--- color scheme toggling
-wezterm.on("toggle-colorscheme", function(window, pane)
-	local overrides = window:get_config_overrides() or {}
-	if overrides.color_scheme == "Zenburn" then
-		overrides.color_scheme = "Cloud (terminal.sexy)"
-	else
-		overrides.color_scheme = "Zenburn"
-	end
-	window:set_config_overrides(overrides)
-end)
+-- local themeDecorator = require("themes.rose-pine")
+local themeDecorator = require("themes.custom-vesper")
+themeDecorator.decorate(config)
 
 -- keymaps
 config.keys = {
@@ -166,48 +161,6 @@ config.keys = {
 
 -- For example, changing the color scheme:
 config.color_scheme = "Cloud (terminal.sexy)"
-config.colors = {
-	-- background = '#3b224c',
-	-- background = "#181616", -- vague.nvim bg
-	-- background = "#080808", -- almost black
-	background = "#0c0b0f", -- dark purple
-	-- background = "#020202", -- dark purple
-	-- background = "#17151c", -- brighter purple
-	-- background = "#16141a",
-	-- background = "#0e0e12", -- bright washed lavendar
-	-- background = 'rgba(59, 34, 76, 100%)',
-	cursor_border = "#bea3c7",
-	-- cursor_fg = "#281733",
-	cursor_bg = "#bea3c7",
-	-- selection_fg = '#281733',
-
-	tab_bar = {
-		background = "#0c0b0f",
-		-- background = "rgba(0, 0, 0, 0%)",
-		active_tab = {
-			bg_color = "#0c0b0f",
-			fg_color = "#bea3c7",
-			intensity = "Normal",
-			underline = "None",
-			italic = false,
-			strikethrough = false,
-		},
-		inactive_tab = {
-			bg_color = "#0c0b0f",
-			fg_color = "#f8f2f5",
-			intensity = "Normal",
-			underline = "None",
-			italic = false,
-			strikethrough = false,
-		},
-
-		new_tab = {
-			-- bg_color = "rgba(59, 34, 76, 50%)",
-			bg_color = "#0c0b0f",
-			fg_color = "white",
-		},
-	},
-}
 
 config.window_frame = {
 	font = wezterm.font({ family = "JetBrains Mono", weight = "Regular" }),
@@ -215,9 +168,7 @@ config.window_frame = {
 	-- active_titlebar_bg = "#181616",
 }
 
--- config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
--- config.window_decorations = "NONE | RESIZE"
-config.window_decorations = "NONE"
+-- config.window_decorations = "NONE"
 config.initial_cols = 80
 -- config.window_background_image = "C:/dev/misc/berk.png"
 -- config.window_background_image_hsb = {
