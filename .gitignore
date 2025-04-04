@@ -13,6 +13,7 @@
 */.config/github-copilot
 */.config/tmux/plugins
 */.config/tool_state
+*/.config/polybar/polybar.log
 
 
 */.config/gtk-3.0/bookmarks

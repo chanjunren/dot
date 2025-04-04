@@ -215,3 +215,6 @@ exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper_31032025.jpg
 bindsym $mod+Shift+t exec flameshot gui
 
 exec_always --no-startup-id xrdb -merge ~/.Xresources
+
+bindsym $mod+o exec --no-startup-id ~/.local/bin/obsidian.AppImage --no-sandbox
+
