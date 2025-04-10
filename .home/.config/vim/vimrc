@@ -1,0 +1,106 @@
+" basic setup
+
+setlocal spell spelllang=en_us      " Enable spell check with US English
+set nocompatible                    " Use Vim defaults, not Vi compatibility
+set nu                              " Show line numbers
+set relativenumber
+set clipboard=unnamedplus
+
+let mapleader=' '                  " Set <Leader> key to ' '
+
+" editor behavior
+set ai                              " Enable auto-indentation
+set ic                              " Ignore case in search patterns
+set hls                             " Highlight all search matches
+set lbr                             " Line breaks occur at word boundaries
+set ve=onemore                      " Allow cursor to move one past end of line
+set path=.,,**                      " Set search path for file commands
+set backspace=indent,eol,start      " Make backspace behave more naturally
+set ruler                           " Show line and column number of cursor
+set showcmd                         " Show command being typed
+set incsearch                       " Show search matches as you type
+set expandtab                       " Use spaces instead of tabs
+set tabstop=4                       " Number of spaces a <Tab> displays as
+set shiftwidth=4                    " Number of spaces to use for autoindent
+set autoindent                      " Copy indent from current line when starting a new one
+set showmatch                       " Highlight matching parentheses
+set encoding=utf-8                  " Set default file encoding to UTF-8
+set termencoding=utf-8             " Set terminal encoding
+set fdm=indent                      " Use indentation for fold method
+
+set cursorline                      " Highlight the current cursor line
+
+" cursor line/column highlighting style
+highlight CursorLine term=bold cterm=bold ctermfg=none ctermbg=none guibg=Grey20 gui=bold
+hi cursorcolumn term=bold cterm=bold ctermfg=none ctermbg=none guibg=Grey20 gui=bold
+
+set guicursor+=a:blinkon0           " Disable blinking cursor
+set completeopt=longest,menuone     " Better completion menu behavior
+
+" Enable syntax highlighting and filetype detection
+" :colorscheme {scheme} to change
+syntax enable
+colorscheme slate
+filetype plugin on
+
+
+" FINDING FILES
+
+" enables recursive searching into subdirectories
+set path+=**
+
+" wildmenu enhances tab-completion of commands and files
+set wildmenu
+
+" ignore common directories and files when completing
+set wildignore+=*/tmp/*
+set wildignore+=*/target/*
+set wildignore+=*/build/*
+set wildignore+=*.so
+set wildignore+=*.o
+set wildignore+=*.class
+set wildignore+=*.swp
+set wildignore+=*.zip
+set wildignore+=*.pdf
+set wildignore+=*/node_modules/*
+set wildignore+=*/bower_components/*
+set wildignore+=*/dist/*
+set wildignore+=*/usr/*
+
+" tag jumping
+
+command! MakeTags !ctags -R .       " Define :MakeTags to generate tags recursively
+
+" With tags generated, you can:
+" - ^]       => jump to tag under cursor
+" - g^]      => jump to ambiguous tags
+" - ^t       => jump back up the tag stack
+
+" autocomplete
+
+" Vim native completion keys:
+" - ^n       => next completion (from 'complete' setting)
+" - ^x^n     => next from current buffer
+" - ^x^f     => file name completion (respects 'path')
+" - ^x^]     => tag completion
+
+" file browsing (netrw config)
+let g:netrw_banner=0                         " Disable banner
+let g:netrw_browse_split=4                   " Open in previous window
+let g:netrw_altv=1                           " Open splits to the right
+let g:netrw_liststyle=3                      " Tree-style listing
+let g:netrw_list_hide=netrw_gitignore#Hide() " Hide files from .gitignore
+let g:netrw_list_hide.=',\(^\|\s\s\s)\zs\.\S\+'  " Hide dotfiles
+
+" snippets
+
+" Example mapping to insert HTML skeleton from a template
+" nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
+
+" system clipboard mappings
+
+noremap <Leader>y "*y      " Yank to system clipboard (primary)
+noremap <Leader>p "*p      " Paste from system clipboard (primary)
+noremap <Leader>Y "+y      " Yank to system clipboard (explicit clipboard)
+noremap <Leader>P "+p      " Paste from system clipboard (explicit clipboard)
+

@@ -14,6 +14,8 @@ export XDG_VIDEOS_DIR="$HOME/Videos"
 
 export DOT_FILES="$HOME/dot_files"
 
+export VIMINIT='source $HOME/.config/vim/vimrc'
+
 export HISTFILE="$XDG_STATE_HOME/zsh/history"
 export LESSHISTFILE=-
 
@@ -46,3 +48,4 @@ source $XDG_CONFIG_HOME/brew/init.sh
 source $XDG_CONFIG_HOME/zsh/aliases.sh
 source $XDG_CONFIG_HOME/zsh/scripts/tmuxify.sh
 source $XDG_CONFIG_HOME/rbenv/init.sh
+
