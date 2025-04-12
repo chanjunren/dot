@@ -220,7 +220,21 @@
     ]
   },
   "workbench.colorCustomizations": {
-    "terminal.ansiGreen": "#a9dc76", // replace with your preferred color
-    "terminal.ansiBrightGreen": "#c3e88d"
+    "terminal.ansiBlack": "#dcdcdc", // Pastel gray
+    "terminal.ansiRed": "#f28b82", // Pastel red
+    "terminal.ansiGreen": "#81c995", // Pastel green
+    "terminal.ansiYellow": "#fdd663", // Pastel yellow
+    "terminal.ansiBlue": "#aecbfa", // Pastel blue
+    "terminal.ansiMagenta": "#d7aefb", // Pastel purple
+    "terminal.ansiCyan": "#a7ffeb", // Pastel cyan
+    "terminal.ansiWhite": "#ffffff", // White
+    "terminal.ansiBrightBlack": "#e8eaed", // Bright pastel gray
+    "terminal.ansiBrightRed": "#fbbc04", // Bright pastel red-orange
+    "terminal.ansiBrightGreen": "#ccff90", // Bright pastel green
+    "terminal.ansiBrightYellow": "#fff475", // Bright pastel yellow
+    "terminal.ansiBrightBlue": "#8ab4f8", // Bright pastel blue
+    "terminal.ansiBrightMagenta": "#c58af9", // Bright pastel purple
+    "terminal.ansiBrightCyan": "#80d8ff", // Bright pastel cyan
+    "terminal.ansiBrightWhite": "#ffffff" // Bright white
   }
 }

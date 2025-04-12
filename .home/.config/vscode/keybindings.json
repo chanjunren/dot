@@ -169,7 +169,16 @@
     "command": "workbench.files.action.collapseExplorerFolders"
   },
   {
-    "key": "ctrl+shift+c",
+    "key": "cmd+shift+i",
     "command": "workbench.panel.chat"
+  },
+  {
+    "key": "cmd+shift+c",
+    "when": "chatEditingParticipantRegistered && chatIsEnabled",
+    "command": "workbench.action.chat.newEditSession"
+  },
+  {
+    "key": "cmd+shift+h",
+    "command": "workbench.action.chat.history"
   }
 ]
