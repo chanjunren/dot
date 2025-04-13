@@ -180,5 +180,17 @@
   {
     "key": "cmd+shift+h",
     "command": "workbench.action.chat.history"
+  },
+  {
+    "key": "alt+shift+i",
+    "command": "workbench.panel.chat"
+  },
+  {
+    "key": "alt+shift+c",
+    "command": "workbench.action.chat.newEditSession"
+  },
+  {
+    "key": "alt+shift+h",
+    "command": "workbench.action.chat.history"
   }
 ]

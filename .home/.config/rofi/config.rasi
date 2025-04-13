@@ -30,6 +30,7 @@
     alternate-active-foreground: @active-foreground;
     active-background:           rgba(30, 30, 30, 17%);
     selected-active-background:  rgba(0, 120, 255, 100%);
+    font: "JetBrainsMono Nerd Font 12";
 }
 window {
     background-color: @background;

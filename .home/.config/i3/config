@@ -150,9 +150,9 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+# bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exit
 
@@ -206,15 +206,17 @@ bindsym $mod+Shift+w exec rofi -show window
 for_window [class=".*"] border pixel 2
 
 set $border-color #ea9a97
-
 # Focused window: thin white border
 client.focused          $border-color $border-color $border-color $border-color $border-color
 
-exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper_31032025.jpg
+exec_always --no-startup-id feh --bg-scale ~/Pictures/a_fish_swimming_in_water.png
 
 bindsym $mod+Shift+t exec flameshot gui
 
 exec_always --no-startup-id xrdb -merge ~/.Xresources
 
 bindsym $mod+o exec --no-startup-id ~/.local/bin/obsidian.AppImage --no-sandbox
+
+# ~/.config/i3/config
+exec --no-startup-id xfsettingsd
 

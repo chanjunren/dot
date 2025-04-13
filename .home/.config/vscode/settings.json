@@ -122,11 +122,11 @@
     "source.fixAll": "explicit"
   },
   "settingsSync.ignoredSettings": ["terminal.external.windowsExec"],
-  "debug.console.fontFamily": "GeistMono Nerd Font",
-  "editor.fontSize": 12,
-  "editor.fontFamily": "GeistMono Nerd Font",
+  "debug.console.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 11,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.fontSize": 12,
-  "terminal.integrated.fontFamily": "GeistMono Nerd Font",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[json]": {
@@ -236,5 +236,6 @@
     "terminal.ansiBrightMagenta": "#c58af9", // Bright pastel purple
     "terminal.ansiBrightCyan": "#80d8ff", // Bright pastel cyan
     "terminal.ansiBrightWhite": "#ffffff" // Bright white
-  }
+  },
+  "update.showReleaseNotes": false
 }

@@ -25,7 +25,7 @@ set shiftwidth=4                    " Number of spaces to use for autoindent
 set autoindent                      " Copy indent from current line when starting a new one
 set showmatch                       " Highlight matching parentheses
 set encoding=utf-8                  " Set default file encoding to UTF-8
-set termencoding=utf-8             " Set terminal encoding
+" set termencoding=utf-8             " Set terminal encoding
 set fdm=indent                      " Use indentation for fold method
 
 set cursorline                      " Highlight the current cursor line
@@ -85,12 +85,12 @@ command! MakeTags !ctags -R .       " Define :MakeTags to generate tags recursiv
 " - ^x^]     => tag completion
 
 " file browsing (netrw config)
-let g:netrw_banner=0                         " Disable banner
-let g:netrw_browse_split=4                   " Open in previous window
-let g:netrw_altv=1                           " Open splits to the right
-let g:netrw_liststyle=3                      " Tree-style listing
-let g:netrw_list_hide=netrw_gitignore#Hide() " Hide files from .gitignore
-let g:netrw_list_hide.=',\(^\|\s\s\s)\zs\.\S\+'  " Hide dotfiles
+" let g:netrw_banner=0                         " Disable banner
+" let g:netrw_browse_split=4                   " Open in previous window
+" let g:netrw_altv=1                           " Open splits to the right
+" let g:netrw_liststyle=3                      " Tree-style listing
+" let g:netrw_list_hide=netrw_gitignore#Hide() " Hide files from .gitignore
+" let g:netrw_list_hide.=',\(^\|\s\s\s)\zs\.\S\+'  " Hide dotfiles
 
 " snippets
 
