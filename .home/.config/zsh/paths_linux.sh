@@ -20,3 +20,7 @@ PATH=$NVM_DIR:$PATH
 export PATH
 
 export PATH=$HOME/development/flutter/bin:$PATH
+
+export GTK_IM_MODULE=ibus
+export QT_IM_MODULE=ibus
+export XMODIFIERS="@im=ibus"

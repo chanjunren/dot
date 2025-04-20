@@ -14,7 +14,7 @@ export XDG_VIDEOS_DIR="$HOME/Videos"
 
 export DOT_FILES="$HOME/dot_files"
 
-export VIMINIT='source $HOME/.config/vim/vimrc'
+# export VIMINIT='source $HOME/.config/vim/vimrc'
 
 export HISTFILE="$XDG_STATE_HOME/zsh/history"
 export LESSHISTFILE=-

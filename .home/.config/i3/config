@@ -220,3 +220,4 @@ bindsym $mod+o exec --no-startup-id ~/.local/bin/obsidian.AppImage --no-sandbox
 # ~/.config/i3/config
 exec --no-startup-id xfsettingsd
 
+exec_always --no-startup-id ibus-daemon -drx
