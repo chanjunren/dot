@@ -125,7 +125,7 @@
   "debug.console.fontFamily": "JetBrainsMono Nerd Font",
   "editor.fontSize": 11,
   "editor.fontFamily": "JetBrainsMono Nerd Font",
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 11,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -237,5 +237,5 @@
     "terminal.ansiBrightCyan": "#80d8ff", // Bright pastel cyan
     "terminal.ansiBrightWhite": "#ffffff" // Bright white
   },
-  "update.showReleaseNotes": false
+  "chat.editor.fontSize": 11
 }
