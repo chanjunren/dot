@@ -1,1 +1,4 @@
 export GTK_THEME="Yaru-red-dark"
+export XDG_CURRENT_DESKTOP=GNOME
+# export GTK_THEME=Yaru:dark # Or Adwaita:dark, or whatever theme you want
+export GDK_BACKEND=x11 # if you are using X11 (not Wayland)

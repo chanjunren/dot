@@ -169,7 +169,7 @@
     "command": "workbench.files.action.collapseExplorerFolders"
   },
   {
-    "key": "cmd+shift+i",
+    "key": "cmd+i",
     "command": "workbench.panel.chat"
   },
   {
@@ -182,7 +182,7 @@
     "command": "workbench.action.chat.history"
   },
   {
-    "key": "alt+shift+i",
+    "key": "alt+i",
     "command": "workbench.panel.chat"
   },
   {
