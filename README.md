@@ -48,8 +48,10 @@ New-Item -Path .wezterm.lua -Value .\dot\.home\.config\wezterm\wezterm.lua -Item
 
 ## Fonts
 
-- [GeistMono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/GeistMono.zip)
-- [JetbrainsMono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrainsMono.zip)
+- [geist mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/GeistMono.zip)
+- [jetbrains mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrainsMono.zip)
+- [geist](https://fonts.google.com/specimen/Geist)
+- [spectral](https://fonts.google.com/specimen/Spectral)
 
 ## 🐶 Resources
 
