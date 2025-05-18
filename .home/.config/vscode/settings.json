@@ -122,11 +122,11 @@
     "source.fixAll": "explicit"
   },
   "settingsSync.ignoredSettings": ["terminal.external.windowsExec"],
-  "debug.console.fontFamily": "JetBrainsMono Nerd Font",
+  "debug.console.fontFamily": "GeistMono Nerd Font",
   "editor.fontSize": 11,
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontFamily": "GeistMono Nerd Font",
   "terminal.integrated.fontSize": 11,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "GeistMono Nerd Font",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[json]": {
