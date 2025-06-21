@@ -1,0 +1,212 @@
+{
+  "workbench.colorTheme": "Vesper",
+  "vim.leader": "<space>",
+  "vim.highlightedyank.enable": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "vim.highlightedyank.duration": 400,
+  "vim.hlsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<D-S-left>"],
+      "after": "workbench.action.splitEditorLeft"
+    },
+    {
+      "before": ["leader", "g"],
+      "commands": ["workbench.files.action.showActiveFileInExplorer"]
+    },
+    {
+      "before": ["leader", "L"],
+      "commands": [
+        {
+          "command": "extension.multiCommand.execute",
+          "args": {
+            "sequence": [
+              "workbench.action.splitEditorRight",
+              "workbench.action.focusPreviousGroup",
+              "workbench.action.closeActiveEditor",
+              "workbench.action.focusNextGroup"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "before": ["leader", "J"],
+      "commands": [
+        {
+          "command": "extension.multiCommand.execute",
+          "args": {
+            "sequence": [
+              "workbench.action.splitEditorDown",
+              "workbench.action.focusPreviousGroup",
+              "workbench.action.closeActiveEditor",
+              "workbench.action.focusNextGroup"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "before": ["leader", "a"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["leader", "r"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["leader", "R"],
+      "commands": ["editor.action.refactor"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "d"],
+      "commands": ["editor.action.goToDeclaration"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["W"],
+      "after": ["0", "w"]
+    },
+    {
+      "before": ["leader", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["leader", "e"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["g", "e"],
+      "commands": ["editor.action.marker.next"]
+    },
+    {
+      "before": ["leader", "f"],
+      "commands": ["editor.action.quickFix"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["leader", "f", "t"],
+      "commands": ["markdownTablePrettify.prettifyTables"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "editor.lineNumbers": "relative",
+  "terminal.integrated.profiles.windows": {
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "settingsSync.ignoredSettings": ["terminal.external.windowsExec"],
+  "debug.console.fontFamily": "GeistMono Nerd Font",
+  "editor.fontSize": 11,
+  "editor.fontFamily": "GeistMono Nerd Font",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "GeistMono Nerd Font",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.iconClickBehavior": "focus",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "editor.formatOnSave": true,
+  "window.commandCenter": false,
+  "workbench.iconTheme": "chalice-icon-theme",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "window.menuBarVisibility": "compact",
+  "chat.commandCenter.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "String, Symbols, Inherited Class",
+        "scope": [
+          "string",
+          "constant.other.symbol",
+          "constant.other.key",
+          "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+        ],
+        "settings": {
+          "foreground": "#A0A0A0"
+        }
+      },
+      {
+        "name": "CSS ID's",
+        "scope": [
+          "source.sass keyword.control",
+          "meta.attribute-selector.scss"
+        ],
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      },
+      {
+        "name": "Inserted",
+        "scope": ["markup.inserted"],
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "terminal.ansiGreen": "#a9dc76",
+    "terminal.ansiBrightGreen": "#c3e88d"
+  },
+  "security.promptForLocalFileProtocolHandling": false,
+  "git.openRepositoryInParentFolders": "always",
+  "switch2idea.ideaPath": "/Users/chanjunren/meili/junren.chan_dacs_at_okg.com/Applications/109/IntelliJ Idea.app",
+  "java.autobuild.enabled": false,
+  "java.debug.settings.forceBuildBeforeLaunch": false
+}

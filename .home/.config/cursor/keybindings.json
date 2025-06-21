@@ -1,0 +1,196 @@
+[
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusPreviousGroup"
+  },
+  {
+    "key": "tab",
+    "command": "workbench.action.nextEditor",
+    "when": "vim.mode == 'Normal' && editorFocus"
+  },
+  {
+    "key": "shift+tab",
+    "command": "workbench.action.previousEditor",
+    "when": "vim.mode == 'Normal' && editorFocus"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "cmd+t",
+    "when": "terminal.active",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "alt+t",
+    "when": "terminal.active && terminalFocus",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "alt+w",
+    "when": "editorTextFocus",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "cmd+w",
+    "when": "editorFocus || editorIsOpen",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "alt+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminal.active && terminalFocus"
+  },
+  {
+    "key": "cmd+w",
+    "when": "terminal.active && terminalFocus",
+    "command": "workbench.action.terminal.killActiveTab"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.closeSidebar",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "alt+e",
+    "command": "workbench.action.closeSidebar",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "alt+e",
+    "command": "workbench.view.explorer",
+    "when": "!filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.terminal.killActiveTab",
+    "when": "terminalHasBeenCreated && terminalTabsFocus || terminalIsOpen && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+d",
+    "when": "filesExplorerFocus",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "backspace",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus",
+    "command": "deleteFile"
+  },
+  {
+    "key": "alt+shift+]",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "alt+shift+[",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "cmd+shift+]",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "cmd+shift+[",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "enter",
+    "command": "explorer.openAndPassFocus",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "enter",
+    "command": "list.toggleExpand",
+    "when": "listFocus && !inputFocus && explorerResourceIsFolder"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "z c",
+    "command": "list.collapseAll",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+r",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "alt+r",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  { "key": "shift+cmd+r", "command": "workbench.action.replaceInFiles" },
+  { "key": "shift+alt+r", "command": "workbench.action.replaceInFiles" },
+  {
+    "key": "cmd+r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+-",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "alt+-",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "cmd+i",
+    "command": "workbench.panel.chat"
+  },
+  {
+    "key": "cmd+shift+c",
+    "when": "chatEditingParticipantRegistered && chatIsEnabled",
+    "command": "workbench.action.chat.newEditSession"
+  },
+  {
+    "key": "cmd+shift+h",
+    "command": "workbench.action.chat.history"
+  },
+  {
+    "key": "alt+i",
+    "command": "workbench.panel.chat"
+  },
+  {
+    "key": "alt+shift+c",
+    "command": "workbench.action.chat.newEditSession"
+  },
+  {
+    "key": "alt+shift+h",
+    "command": "workbench.action.chat.history"
+  }
+]

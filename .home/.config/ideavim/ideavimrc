@@ -68,6 +68,8 @@ nmap <space>e <Action>(ShowErrorDescription)
 nmap ge <Action>(GotoPreviousError)
 nmap gE <Action>(GotoNextError)
 
+nmap <space>i <Action>(OpenFileInCursor)
+
 " Code navigation
 nmap <space>ff <Action>(GotoFile)
 nmap <space>fg <Action>(FindInPath)
